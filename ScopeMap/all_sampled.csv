@@ -1,0 +1,4 @@
+ScreenLabel,smiles
+Sampled,O=Cc1cc(Br)cc(Br)c1OS(=O)(=O)c1ccc(Cl)cc1
+Sampled,O=Cc1ccc(Sc2nc(-c3cc(Br)ccc3O)n[nH]2)c([N+](=O)[O-])c1
+Sampled,C[C@@]1(O)CCCN(c2ccc(C=O)o2)C1
