@@ -1,0 +1,1377 @@
+nohup: ignoring input
+Starting sampling method comparison test...
+Available CPU cores: 112
+Complete space data shape: (32071, 1192)
+
+============================================================
+Evaluating sampling method: RANDOM with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for random sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+random sampling entropy - Initial std: 27.516744, Expected std: 263.974969
+random sampling entropy required samples: 10
+random sampling final mean entropy: 5279.499384
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+random sampling Mean Squared Distance - Initial std: 42.618858, Expected std: 77.754412
+random sampling Mean Squared Distance required samples: 10
+random sampling final mean squared distance: 1555.088232
+
+============================================================
+Evaluating sampling method: CVT with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for cvt sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+CVT算法收敛, 迭代次数: 45
+CVT算法收敛, 迭代次数: 58
+CVT算法收敛, 迭代次数: 51
+CVT算法收敛, 迭代次数: 52
+CVT算法收敛, 迭代次数: 49
+CVT算法收敛, 迭代次数: 62
+CVT算法收敛, 迭代次数: 46
+CVT算法收敛, 迭代次数: 83
+CVT算法收敛, 迭代次数: 78
+cvt sampling entropy - Initial std: 38.787859, Expected std: 239.598933
+cvt sampling entropy required samples: 10
+cvt sampling final mean entropy: 4791.978654
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+CVT算法收敛, 迭代次数: 59
+CVT算法收敛, 迭代次数: 54
+CVT算法收敛, 迭代次数: 38
+CVT算法收敛, 迭代次数: 55
+CVT算法收敛, 迭代次数: 64
+CVT算法收敛, 迭代次数: 53
+CVT算法收敛, 迭代次数: 80
+CVT算法收敛, 迭代次数: 67
+CVT算法收敛, 迭代次数: 78
+cvt sampling Mean Squared Distance - Initial std: 2.773220, Expected std: 63.699554
+cvt sampling Mean Squared Distance required samples: 10
+cvt sampling final mean squared distance: 1273.991087
+
+============================================================
+Evaluating sampling method: CVT_GOLD with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for cvt_gold sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+CVT算法收敛, 迭代次数: 107
+CVT算法收敛, 迭代次数: 38
+CVT算法收敛, 迭代次数: 41
+CVT算法收敛, 迭代次数: 34
+CVT算法收敛, 迭代次数: 49
+CVT算法收敛, 迭代次数: 54
+CVT算法收敛, 迭代次数: 65
+CVT算法收敛, 迭代次数: 44
+CVT算法收敛, 迭代次数: 83
+cvt_gold sampling entropy - Initial std: 43.962358, Expected std: 218.741518
+cvt_gold sampling entropy required samples: 10
+cvt_gold sampling final mean entropy: 4374.830368
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+CVT算法收敛, 迭代次数: 29
+CVT算法收敛, 迭代次数: 51
+CVT算法收敛, 迭代次数: 57
+CVT算法收敛, 迭代次数: 54
+CVT算法收敛, 迭代次数: 70
+CVT算法收敛, 迭代次数: 80
+CVT算法收敛, 迭代次数: 126
+CVT算法收敛, 迭代次数: 59
+CVT算法收敛, 迭代次数: 59
+CVT算法收敛, 迭代次数: 177
+cvt_gold sampling Mean Squared Distance - Initial std: 4.750914, Expected std: 51.953159
+cvt_gold sampling Mean Squared Distance required samples: 10
+cvt_gold sampling final mean squared distance: 1039.063174
+
+============================================================
+Evaluating sampling method: FPS with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for fps sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+fps sampling entropy - Initial std: 2.335053, Expected std: 302.115948
+fps sampling entropy required samples: 10
+fps sampling final mean entropy: 6042.318964
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+fps sampling Mean Squared Distance - Initial std: 323.696802, Expected std: 111.076155
+fps sampling Mean Squared Distance required samples: 33
+Running 23 additional Mean Squared Distance computations in parallel...
+fps sampling final mean squared distance: 2331.436866
+
+============================================================
+Evaluating sampling method: LHS with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for lhs sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+lhs sampling entropy - Initial std: 46.216848, Expected std: 286.924873
+lhs sampling entropy required samples: 10
+lhs sampling final mean entropy: 5738.497451
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+lhs sampling Mean Squared Distance - Initial std: 250.655035, Expected std: 156.818889
+lhs sampling Mean Squared Distance required samples: 10
+lhs sampling final mean squared distance: 3136.377785
+
+============================================================
+Evaluating sampling method: SOBOL with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for sobol sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+sobol sampling entropy - Initial std: 59.130704, Expected std: 286.373499
+sobol sampling entropy required samples: 10
+sobol sampling final mean entropy: 5727.469982
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+sobol sampling Mean Squared Distance - Initial std: 199.556241, Expected std: 152.367985
+sobol sampling Mean Squared Distance required samples: 10
+sobol sampling final mean squared distance: 3047.359699
+
+============================================================
+Evaluating sampling method: WEIGHTED_ITR_CVT with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for weighted_itr_cvt sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 27
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33346586.842610, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 33346586.842610
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 37
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33253106.974332, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 33253106.974332
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 48
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33359957.427320, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 33359957.427320
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 61
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33392908.970754, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 33392908.970754
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 43
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 2, 最终能量: 33262056.083301
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 33
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 14, 最终能量: 33285610.311942
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 77
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32991390.184234, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 8, 最终能量: 32991390.184234
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 47
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33406256.399066, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 5, 最终能量: 33406256.399066
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 55
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 23, 最终能量: 33450375.373650
+加权CVT采样完成，采样了 50 个点
+weighted_itr_cvt sampling entropy - Initial std: 41.233233, Expected std: 239.248277
+weighted_itr_cvt sampling entropy required samples: 10
+weighted_itr_cvt sampling final mean entropy: 4784.965534
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 49
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33214866.976127, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 33214866.976127
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 62
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33144440.069326, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 33144440.069326
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 54
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33429623.463899, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 4, 最终能量: 33429623.463899
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 59
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33231048.782651, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 33231048.782651
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 55
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33115500.811760, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 6, 最终能量: 33115500.811760
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 86
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33396222.653425, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 33396222.653425
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 38
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 24, 最终能量: 33384950.568921
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 46
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33312784.159761, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 12, 最终能量: 33312784.159761
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 52
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33299325.830013, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 11, 最终能量: 33299325.830013
+加权CVT采样完成，采样了 50 个点
+weighted_itr_cvt sampling Mean Squared Distance - Initial std: 3.309222, Expected std: 63.790957
+weighted_itr_cvt sampling Mean Squared Distance required samples: 10
+weighted_itr_cvt sampling final mean squared distance: 1275.819130
+
+============================================================
+Evaluating sampling method: WARD with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for ward sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+ward sampling entropy - Initial std: 0.000000, Expected std: 249.031885
+ward sampling entropy required samples: 10
+ward sampling final mean entropy: 4980.637707
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+ward sampling Mean Squared Distance - Initial std: 0.000000, Expected std: 63.618674
+ward sampling Mean Squared Distance required samples: 10
+ward sampling final mean squared distance: 1272.373483
+
+============================================================
+Evaluating sampling method: KENNARD_STONE with EUCLIDEAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for kennard_stone sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+kennard_stone sampling entropy - Initial std: 0.000000, Expected std: 302.178120
+kennard_stone sampling entropy required samples: 10
+kennard_stone sampling final mean entropy: 6043.562397
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+kennard_stone sampling Mean Squared Distance - Initial std: 0.000000, Expected std: 180.587058
+kennard_stone sampling Mean Squared Distance required samples: 10
+kennard_stone sampling final mean squared distance: 3611.741152
+
+============================================================
+Evaluating sampling method: RANDOM with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for random sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+random sampling entropy - Initial std: 34.931308, Expected std: 263.125543
+random sampling entropy required samples: 10
+random sampling final mean entropy: 5262.510860
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+random sampling Mean Distance - Initial std: 0.618654, Expected std: 1.960754
+random sampling Mean Distance required samples: 10
+random sampling final mean distance: 39.215085
+
+============================================================
+Evaluating sampling method: CVT with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for cvt sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+CVT算法收敛, 迭代次数: 16
+CVT算法收敛, 迭代次数: 9
+CVT算法收敛, 迭代次数: 8
+CVT算法收敛, 迭代次数: 9
+CVT算法收敛, 迭代次数: 11
+CVT算法收敛, 迭代次数: 8
+CVT算法收敛, 迭代次数: 12
+CVT算法收敛, 迭代次数: 11
+CVT算法收敛, 迭代次数: 11
+CVT算法收敛, 迭代次数: 15
+cvt sampling entropy - Initial std: 36.210462, Expected std: 239.018315
+cvt sampling entropy required samples: 10
+cvt sampling final mean entropy: 4780.366305
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+CVT算法收敛, 迭代次数: 8
+CVT算法收敛, 迭代次数: 10
+CVT算法收敛, 迭代次数: 10
+CVT算法收敛, 迭代次数: 15
+CVT算法收敛, 迭代次数: 15
+CVT算法收敛, 迭代次数: 16
+CVT算法收敛, 迭代次数: 14
+CVT算法收敛, 迭代次数: 16
+CVT算法收敛, 迭代次数: 18
+cvt sampling Mean Distance - Initial std: 0.080016, Expected std: 1.758878
+cvt sampling Mean Distance required samples: 10
+cvt sampling final mean distance: 35.177570
+
+============================================================
+Evaluating sampling method: CVT_GOLD with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for cvt_gold sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+CVT算法收敛, 迭代次数: 21
+CVT算法收敛, 迭代次数: 8
+CVT算法收敛, 迭代次数: 9
+CVT算法收敛, 迭代次数: 10
+CVT算法收敛, 迭代次数: 13
+CVT算法收敛, 迭代次数: 13
+CVT算法收敛, 迭代次数: 15
+CVT算法收敛, 迭代次数: 18
+CVT算法收敛, 迭代次数: 11
+CVT算法收敛, 迭代次数: 18
+cvt_gold sampling entropy - Initial std: 49.525592, Expected std: 212.702474
+cvt_gold sampling entropy required samples: 10
+cvt_gold sampling final mean entropy: 4254.049472
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+CVT算法收敛, 迭代次数: 11
+CVT算法收敛, 迭代次数: 11
+CVT算法收敛, 迭代次数: 9
+CVT算法收敛, 迭代次数: 13
+CVT算法收敛, 迭代次数: 13
+CVT算法收敛, 迭代次数: 12
+CVT算法收敛, 迭代次数: 15
+CVT算法收敛, 迭代次数: 16
+CVT算法收敛, 迭代次数: 19
+cvt_gold sampling Mean Distance - Initial std: 0.083022, Expected std: 1.643882
+cvt_gold sampling Mean Distance required samples: 10
+cvt_gold sampling final mean distance: 32.877635
+
+============================================================
+Evaluating sampling method: FPS with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for fps sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+fps sampling entropy - Initial std: 7.210317, Expected std: 298.809292
+fps sampling entropy required samples: 10
+fps sampling final mean entropy: 5976.185846
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+fps sampling Mean Distance - Initial std: 4.533857, Expected std: 2.385179
+fps sampling Mean Distance required samples: 14
+Running 4 additional Mean Distance computations in parallel...
+fps sampling final mean distance: 47.114303
+
+============================================================
+Evaluating sampling method: LHS with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for lhs sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+lhs sampling entropy - Initial std: 23.170906, Expected std: 292.747558
+lhs sampling entropy required samples: 10
+lhs sampling final mean entropy: 5854.951150
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+lhs sampling Mean Distance - Initial std: 1.009595, Expected std: 2.391784
+lhs sampling Mean Distance required samples: 10
+lhs sampling final mean distance: 47.835684
+
+============================================================
+Evaluating sampling method: SOBOL with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for sobol sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+sobol sampling entropy - Initial std: 30.052711, Expected std: 293.692915
+sobol sampling entropy required samples: 10
+sobol sampling final mean entropy: 5873.858300
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+sobol sampling Mean Distance - Initial std: 1.632334, Expected std: 2.391100
+sobol sampling Mean Distance required samples: 10
+sobol sampling final mean distance: 47.821991
+
+============================================================
+Evaluating sampling method: WEIGHTED_ITR_CVT with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for weighted_itr_cvt sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 17
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 11
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 12
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 17
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 17
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 12
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 16
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 13
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 13
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 15
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+weighted_itr_cvt sampling entropy - Initial std: 22.708910, Expected std: 237.633322
+weighted_itr_cvt sampling entropy required samples: 10
+weighted_itr_cvt sampling final mean entropy: 4752.666430
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 17
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 11
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 13
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 14
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 12
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 14
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 16
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 17
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 17
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 41
+加权CVT采样完成，采样了 50 个点
+weighted_itr_cvt sampling Mean Distance - Initial std: 0.049643, Expected std: 1.759324
+weighted_itr_cvt sampling Mean Distance required samples: 10
+weighted_itr_cvt sampling final mean distance: 35.186488
+
+============================================================
+Evaluating sampling method: WARD with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for ward sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+ward sampling entropy - Initial std: 0.000000, Expected std: 278.088639
+ward sampling entropy required samples: 10
+ward sampling final mean entropy: 5561.772783
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 manhattan 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+ward sampling Mean Distance - Initial std: 0.000000, Expected std: 1.780465
+ward sampling Mean Distance required samples: 10
+ward sampling final mean distance: 35.609297
+
+============================================================
+Evaluating sampling method: KENNARD_STONE with MANHATTAN distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for kennard_stone sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+kennard_stone sampling entropy - Initial std: 0.000000, Expected std: 300.447011
+kennard_stone sampling entropy required samples: 10
+kennard_stone sampling final mean entropy: 6008.940212
+Computing mean distance...
+Running 10 initial Mean Distance computations in parallel...
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+kennard_stone sampling Mean Distance - Initial std: 0.000000, Expected std: 2.970177
+kennard_stone sampling Mean Distance required samples: 10
+kennard_stone sampling final mean distance: 59.403536
+
+============================================================
+Evaluating sampling method: RANDOM with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for random sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+random sampling entropy - Initial std: 29.441713, Expected std: 263.990206
+random sampling entropy required samples: 10
+random sampling final mean entropy: 5279.804116
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+random sampling Mean Squared Distance - Initial std: 62.904728, Expected std: 77.868704
+random sampling Mean Squared Distance required samples: 10
+random sampling final mean squared distance: 1557.374081
+
+============================================================
+Evaluating sampling method: CVT with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for cvt sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+CVT算法收敛, 迭代次数: 94
+CVT算法收敛, 迭代次数: 29
+CVT算法收敛, 迭代次数: 46
+CVT算法收敛, 迭代次数: 47
+CVT算法收敛, 迭代次数: 50
+CVT算法收敛, 迭代次数: 35
+CVT算法收敛, 迭代次数: 40
+CVT算法收敛, 迭代次数: 49
+CVT算法收敛, 迭代次数: 39
+CVT算法收敛, 迭代次数: 54
+cvt sampling entropy - Initial std: 29.958988, Expected std: 250.113697
+cvt sampling entropy required samples: 10
+cvt sampling final mean entropy: 5002.273948
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+CVT算法收敛, 迭代次数: 38
+CVT算法收敛, 迭代次数: 31
+CVT算法收敛, 迭代次数: 42
+CVT算法收敛, 迭代次数: 37
+CVT算法收敛, 迭代次数: 52
+CVT算法收敛, 迭代次数: 54
+CVT算法收敛, 迭代次数: 63
+CVT算法收敛, 迭代次数: 42
+cvt sampling Mean Squared Distance - Initial std: 4.017950, Expected std: 64.074438
+cvt sampling Mean Squared Distance required samples: 10
+cvt sampling final mean squared distance: 1281.488766
+
+============================================================
+Evaluating sampling method: CVT_GOLD with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for cvt_gold sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+CVT算法收敛, 迭代次数: 64
+CVT算法收敛, 迭代次数: 28
+CVT算法收敛, 迭代次数: 44
+CVT算法收敛, 迭代次数: 38
+CVT算法收敛, 迭代次数: 41
+CVT算法收敛, 迭代次数: 36
+CVT算法收敛, 迭代次数: 44
+CVT算法收敛, 迭代次数: 44
+CVT算法收敛, 迭代次数: 52
+CVT算法收敛, 迭代次数: 50
+cvt_gold sampling entropy - Initial std: 18.930429, Expected std: 200.473111
+cvt_gold sampling entropy required samples: 10
+cvt_gold sampling final mean entropy: 4009.462217
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+CVT算法收敛, 迭代次数: 32
+CVT算法收敛, 迭代次数: 34
+CVT算法收敛, 迭代次数: 33
+CVT算法收敛, 迭代次数: 43
+CVT算法收敛, 迭代次数: 33
+CVT算法收敛, 迭代次数: 39
+CVT算法收敛, 迭代次数: 52
+CVT算法收敛, 迭代次数: 55
+CVT算法收敛, 迭代次数: 73
+cvt_gold sampling Mean Squared Distance - Initial std: 2.188394, Expected std: 51.203676
+cvt_gold sampling Mean Squared Distance required samples: 10
+cvt_gold sampling final mean squared distance: 1024.073514
+
+============================================================
+Evaluating sampling method: FPS with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for fps sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+fps sampling entropy - Initial std: 15.215957, Expected std: 272.177515
+fps sampling entropy required samples: 10
+fps sampling final mean entropy: 5443.550294
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+fps sampling Mean Squared Distance - Initial std: 115.039046, Expected std: 81.890937
+fps sampling Mean Squared Distance required samples: 10
+fps sampling final mean squared distance: 1637.818737
+
+============================================================
+Evaluating sampling method: LHS with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for lhs sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+lhs sampling entropy - Initial std: 65.775837, Expected std: 292.958937
+lhs sampling entropy required samples: 10
+lhs sampling final mean entropy: 5859.178747
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+lhs sampling Mean Squared Distance - Initial std: 194.491946, Expected std: 206.360821
+lhs sampling Mean Squared Distance required samples: 10
+lhs sampling final mean squared distance: 4127.216426
+
+============================================================
+Evaluating sampling method: SOBOL with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for sobol sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+sobol sampling entropy - Initial std: 65.907149, Expected std: 292.003640
+sobol sampling entropy required samples: 10
+sobol sampling final mean entropy: 5840.072800
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+sobol sampling Mean Squared Distance - Initial std: 93.808736, Expected std: 199.150065
+sobol sampling Mean Squared Distance required samples: 10
+sobol sampling final mean squared distance: 3983.001305
+
+============================================================
+Evaluating sampling method: WEIGHTED_ITR_CVT with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for weighted_itr_cvt sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 96
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 32, 最终能量: 32911944.121863
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 40
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32881875.319894, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 32881875.319894
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 38
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32910043.757226, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 5, 最终能量: 32910043.757226
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 37
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 3, 最终能量: 32830989.292375
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 56
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32852381.998919, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 32852381.998919
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 53
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 13, 最终能量: 32866828.655920
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 33
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 10, 最终能量: 32888957.360319
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 39
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 15, 最终能量: 32851622.233999
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 50
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 33036216.774286, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 14, 最终能量: 33036216.774286
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 16, 最终能量: 32841961.598290
+加权CVT采样完成，采样了 50 个点
+weighted_itr_cvt sampling entropy - Initial std: 24.327688, Expected std: 250.328133
+weighted_itr_cvt sampling entropy required samples: 10
+weighted_itr_cvt sampling final mean entropy: 5006.562658
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 52
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+学习率过小，提前停止。迭代次数: 42
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 32
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32996644.500461, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 32996644.500461
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 38
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32935564.797691, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 32935564.797691
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 35
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 2, 最终能量: 33011054.760427
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 51
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32764139.933514, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 32764139.933514
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 64
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32911920.543602, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 32911920.543602
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 31
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 11, 最终能量: 32855694.296636
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 67
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+迭代 0: 总能量 = 32853788.713397, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 32853788.713397
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 56
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 15, 最终能量: 32756759.300732
+加权CVT采样完成，采样了 50 个点
+无已采样数据，将进行标准CVT采样
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 75
+阶段2：基于解析CVT初猜进行加权能量优化（最多2000次迭代）
+开始加权能量优化，排斥强度: 1.0, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 6, 最终能量: 32768724.752841
+加权CVT采样完成，采样了 50 个点
+weighted_itr_cvt sampling Mean Squared Distance - Initial std: 15.094630, Expected std: 64.220591
+weighted_itr_cvt sampling Mean Squared Distance required samples: 10
+weighted_itr_cvt sampling final mean squared distance: 1284.411812
+
+============================================================
+Evaluating sampling method: WARD with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for ward sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+ward sampling entropy - Initial std: 0.000000, Expected std: 247.365358
+ward sampling entropy required samples: 10
+ward sampling final mean entropy: 4947.307168
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+使用 complete linkage 和 cosine 距离度量进行层次聚类
+Ward聚类采样完成，采样了 50 个点
+ward sampling Mean Squared Distance - Initial std: 0.000000, Expected std: 67.305402
+ward sampling Mean Squared Distance required samples: 10
+ward sampling final mean squared distance: 1346.108034
+
+============================================================
+Evaluating sampling method: KENNARD_STONE with COSINE distance
+============================================================
+Original feature dimensions: 1191
+Using standardized space with 1191 dimensions
+Starting evaluation for kennard_stone sampling method...
+Computing spatial entropy...
+Running 10 initial entropy computations in parallel...
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+kennard_stone sampling entropy - Initial std: 0.000000, Expected std: 273.172642
+kennard_stone sampling entropy required samples: 10
+kennard_stone sampling final mean entropy: 5463.452842
+Computing mean squared distance...
+Running 10 initial Mean Squared Distance computations in parallel...
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+Kennard-Stone采样完成，采样了 50 个点
+kennard_stone sampling Mean Squared Distance - Initial std: 0.000000, Expected std: 67.320422
+kennard_stone sampling Mean Squared Distance required samples: 10
+kennard_stone sampling final mean squared distance: 1346.408441
+
+================================================================================
+Sampling Method Comparison Results
+================================================================================
+Method       Distance     Entropy         Entropy Std     Mean Distance   Distance Std   
+------------------------------------------------------------------------------------------
+random       euclidean    5279.499384     27.516744       1555.088232     42.618858      
+cvt          euclidean    4791.978654     38.787859       1273.991087     2.773220       
+cvt_gold     euclidean    4374.830368     43.962358       1039.063174     4.750914       
+fps          euclidean    6042.318964     2.335053        2331.436866     430.269857     
+lhs          euclidean    5738.497451     46.216848       3136.377785     250.655035     
+sobol        euclidean    5727.469982     59.130704       3047.359699     199.556241     
+weighted_itr_cvt euclidean    4784.965534     41.233233       1275.819130     3.309222       
+ward         euclidean    4980.637707     0.000000        1272.373483     0.000000       
+kennard_stone euclidean    6043.562397     0.000000        3611.741152     0.000000       
+random       manhattan    5262.510860     34.931308       39.215085       0.618654       
+cvt          manhattan    4780.366305     36.210462       35.177570       0.080016       
+cvt_gold     manhattan    4254.049472     49.525592       32.877635       0.083022       
+fps          manhattan    5976.185846     7.210317        47.114303       3.992298       
+lhs          manhattan    5854.951150     23.170906       47.835684       1.009595       
+sobol        manhattan    5873.858300     30.052711       47.821991       1.632334       
+weighted_itr_cvt manhattan    4752.666430     22.708910       35.186488       0.049643       
+ward         manhattan    5561.772783     0.000000        35.609297       0.000000       
+kennard_stone manhattan    6008.940212     0.000000        59.403536       0.000000       
+random       cosine       5279.804116     29.441713       1557.374081     62.904728      
+cvt          cosine       5002.273948     29.958988       1281.488766     4.017950       
+cvt_gold     cosine       4009.462217     18.930429       1024.073514     2.188394       
+fps          cosine       5443.550294     15.215957       1637.818737     115.039046     
+lhs          cosine       5859.178747     65.775837       4127.216426     194.491946     
+sobol        cosine       5840.072800     65.907149       3983.001305     93.808736      
+weighted_itr_cvt cosine       5006.562658     24.327688       1284.411812     15.094630      
+ward         cosine       4947.307168     0.000000        1346.108034     0.000000       
+kennard_stone cosine       5463.452842     0.000000        1346.408441     0.000000       
+
+================================================================================
+Best Methods by Distance Metric:
+
+EUCLIDEAN Distance:
+  Highest entropy: kennard_stone (entropy: 6043.562397)
+  Lowest mean distance: cvt_gold (distance: 1039.063174)
+
+MANHATTAN Distance:
+  Highest entropy: kennard_stone (entropy: 6008.940212)
+  Lowest mean distance: cvt_gold (distance: 32.877635)
+
+COSINE Distance:
+  Highest entropy: lhs (entropy: 5859.178747)
+  Lowest mean distance: cvt_gold (distance: 1024.073514)
+
+================================================================================
+Generating Pareto Frontier Plots...
+================================================================================
+\n======================================================================
+Pareto Optimal Methods for EUCLIDEAN Distance:
+======================================================================
+Method          | Entropy      | Mean Distance
+----------------------------------------------------------------------
+RANDOM          | 5279.499384  | 1555.088232 
+CVT_GOLD        | 4374.830368  | 1039.063174 
+FPS             | 6042.318964  | 2331.436866 
+WARD            | 4980.637707  | 1272.373483 
+KENNARD_STONE   | 6043.562397  | 3611.741152 
+\n======================================================================
+Pareto Optimal Methods for MANHATTAN Distance:
+======================================================================
+Method          | Entropy      | Mean Distance
+----------------------------------------------------------------------
+CVT             | 4780.366305  | 35.177570   
+CVT_GOLD        | 4254.049472  | 32.877635   
+FPS             | 5976.185846  | 47.114303   
+WARD            | 5561.772783  | 35.609297   
+KENNARD_STONE   | 6008.940212  | 59.403536   
+\n======================================================================
+Pareto Optimal Methods for COSINE Distance:
+======================================================================
+Method          | Entropy      | Mean Distance
+----------------------------------------------------------------------
+CVT             | 5002.273948  | 1281.488766 
+CVT_GOLD        | 4009.462217  | 1024.073514 
+LHS             | 5859.178747  | 4127.216426 
+SOBOL           | 5840.072800  | 3983.001305 
+WEIGHTED_ITR_CVT | 5006.562658  | 1284.411812 
+KENNARD_STONE   | 5463.452842  | 1346.408441 
+
+Pareto frontier plots saved to: pareto_frontier_plot_pareto_frontiers.png
+
+Total runtime: 19392.94 seconds

@@ -1,0 +1,44 @@
+nohup: ignoring input
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+/home/ljw/miniconda3/envs/work_env/lib/python3.10/site-packages/scipy/stats/_qmc.py:993: UserWarning: The balance properties of Sobol' points require n to be a power of 2.
+  sample = self._random(n, workers=workers)
+Testing CVT sampling...
+CVT算法收敛, 迭代次数: 6
+CVT算法收敛, 迭代次数: 6
+CVT算法收敛, 迭代次数: 12
+CVT算法收敛, 迭代次数: 9
+CVT算法收敛, 迭代次数: 10
+CVT sampling completed and saved.
+Testing LHS sampling...
+LHS sampling completed and saved.
+Testing Random sampling...
+Random sampling completed and saved.
+Testing Sobol sampling...
+Sobol sampling completed and saved.
+Testing KennardStone sampling...
+Kennard-Stone采样完成，采样了 20 个点
+Kennard-Stone采样完成，采样了 40 个点
+Kennard-Stone采样完成，采样了 60 个点
+Kennard-Stone采样完成，采样了 80 个点
+Kennard-Stone采样完成，采样了 100 个点
+KennardStone sampling completed and saved.
+Testing WardClustering sampling...
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 20 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 40 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 60 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 80 个点
+使用 ward linkage 和 euclidean 距离度量进行层次聚类
+Ward聚类采样完成，采样了 100 个点
+WardClustering sampling completed and saved.
+All sampling methods have been tested and plotted separately.

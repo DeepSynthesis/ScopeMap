@@ -1,0 +1,77 @@
+nohup: ignoring input
+Starting energy evaluation for all iterations...
+Loaded 43 total dropped points from final_drop.csv
+Using repulsion strength exponent: 0.0
+Processing iteration 1...
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+Found 6 dropped points up to iteration 1
+Computing repulsion energies using euclidean distance with strength 9.505366e+12...
+Energy computation completed. Min energy: 193830095841.398865, Max energy: 95053660074408079785984.000000
+Saved energy evaluation results for iteration 1 to energy_eval_itr1.csv
+Dataset size: 7968, Average repulsion energy: 107364827748525244416.000000
+
+Processing iteration 2...
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+Found 14 dropped points up to iteration 2
+Computing repulsion energies using euclidean distance with strength 9.505366e+12...
+Energy computation completed. Min energy: 495938107197.066406, Max energy: 95053660074936729862144.000000
+Saved energy evaluation results for iteration 2 to energy_eval_itr2.csv
+Dataset size: 7968, Average repulsion energy: 202800229894520242176.000000
+
+Processing iteration 3...
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+Found 22 dropped points up to iteration 3
+Computing repulsion energies using euclidean distance with strength 9.505366e+12...
+Energy computation completed. Min energy: 780573067388.146851, Max energy: 95053660075601157947392.000000
+Saved energy evaluation results for iteration 3 to energy_eval_itr3.csv
+Dataset size: 7968, Average repulsion energy: 298235632164408852480.000000
+
+Processing iteration 4...
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+Found 29 dropped points up to iteration 4
+Computing repulsion energies using euclidean distance with strength 9.505366e+12...
+Energy computation completed. Min energy: 1045955919388.333008, Max energy: 95053660076224230195200.000000
+Saved energy evaluation results for iteration 4 to energy_eval_itr4.csv
+Dataset size: 7968, Average repulsion energy: 453318160435695190016.000000
+
+Processing iteration 5...
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+Found 36 dropped points up to iteration 5
+Computing repulsion energies using euclidean distance with strength 9.505366e+12...
+Energy computation completed. Min energy: 1306368871431.979492, Max energy: 95053660077055910346752.000000
+Saved energy evaluation results for iteration 5 to energy_eval_itr5.csv
+Dataset size: 7968, Average repulsion energy: 596471263564373032960.000000
+
+Processing iteration 6...
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+Found 43 dropped points up to iteration 6
+Computing repulsion energies using euclidean distance with strength 9.505366e+12...
+Energy computation completed. Min energy: 1564875088731.919678, Max energy: 95053660077817126191104.000000
+Saved energy evaluation results for iteration 6 to energy_eval_itr6.csv
+Dataset size: 7968, Average repulsion energy: 703836091070582095872.000000
+
+Energy evaluation completed for all iterations.

@@ -1,0 +1,265 @@
+nohup: ignoring input
+                                                 smiles  0  ...  1190  ScreenLabel
+0                                    C1=C(CCCCO)C=CC=C1  0  ...     0         BASE
+1                                  COC1=CC=C(CCO)C=C1OC  0  ...     0         BASE
+2                                   C[C@@H](O)[C@H](O)C  0  ...     0         BASE
+3                                         OCCOCCOCCCCCC  0  ...     0         BASE
+4                                             OCC1CNCC1  0  ...     0         BASE
+...                                                 ... ..  ...   ...          ...
+7963  [C@@H](CC1=CC=CC=C1)(NC([C@@H](NCCC(C)(C)C)CC(...  0  ...     0         BASE
+7964  [C@@H]([C@H](NC(C(Cl)Cl)=O)CF)(O)C1=CC=C(S(C)(...  0  ...     0         BASE
+7965    [C@@H]([C@H](C(=O)[O-])O)(C(=O)[O-])O.[K+].[K+]  0  ...     0         BASE
+7966  [Br-].O=C(O)CCCCCN1C=2C=CC=CC2C(C1=CC=C3C(Cl)=...  0  ...     0         BASE
+7967  [2H]C([2H])([2H])C(O)(C([2H])([2H])[2H])C([2H]...  0  ...     0         BASE
+
+[7968 rows x 1193 columns]
+(60, 1193)
+Itr 1 start
+k_num: 10
+                                                 smiles  0  ...  1190  ScreenLabel
+0                                    C1=C(CCCCO)C=CC=C1  0  ...     0         BASE
+1                                  COC1=CC=C(CCO)C=C1OC  0  ...     0         BASE
+2                                   C[C@@H](O)[C@H](O)C  0  ...     0         BASE
+3                                         OCCOCCOCCCCCC  0  ...     0         BASE
+4                                             OCC1CNCC1  0  ...     0         BASE
+...                                                 ... ..  ...   ...          ...
+7963  [C@@H](CC1=CC=CC=C1)(NC([C@@H](NCCC(C)(C)C)CC(...  0  ...     0         BASE
+7964  [C@@H]([C@H](NC(C(Cl)Cl)=O)CF)(O)C1=CC=C(S(C)(...  0  ...     0         BASE
+7965    [C@@H]([C@H](C(=O)[O-])O)(C(=O)[O-])O.[K+].[K+]  0  ...     0         BASE
+7966  [Br-].O=C(O)CCCCCN1C=2C=CC=CC2C(C1=CC=C3C(Cl)=...  0  ...     0         BASE
+7967  [2H]C([2H])([2H])C(O)(C([2H])([2H])[2H])C([2H]...  0  ...     0         BASE
+
+[7968 rows x 1193 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+找到 0 个已采样点作为CVT固定中心点
+没有找到ScreenLabel='Excluded_Sampled'的点，不计算排斥力
+CVT计算将使用所有 7968 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 24
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 9.505366e+12, CVT权重: 1.0
+迭代 0: 总能量 = 287479.915274, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 3, 最终能量: 287479.915274
+加权CVT采样完成，采样了 10 个点
+                                      smiles  0  1  ...  1189  1190  ScreenLabel
+0          C(CO)N1C(=O)N(CCO)C(=O)N(CCO)C1=O  0  0  ...     0     0         BASE
+1  CCOC(=O)C1=C(C)N=C(C2=CC(=C(C=C2)O)C=O)S1  0  0  ...     0     0         BASE
+2                 OCC(NC(OC(C)(C)C)=O)C(O)=O  0  0  ...     0     0         BASE
+3               C1=CC=C(C(=C1)[N+](=O)[O-])O  0  0  ...     0     0         BASE
+4                          C1=C(C=CC(=C1)O)O  0  0  ...     0     0         BASE
+5                        C1=C(C=CN=C1)C(=O)O  0  0  ...     0     0         BASE
+6                               OC1CCC(O)CC1  0  0  ...     0     0         BASE
+7                              OCC1=CC=CC=C1  0  0  ...     0     0         BASE
+8                                    CC(=O)O  0  0  ...     0     0         BASE
+9                                       OCCO  0  0  ...     0     0         BASE
+
+[10 rows x 1193 columns]
+Error: No alcohol found
+Error: No alcohol found
+OK: 58
+OK: 50
+OK: 51
+Itr 1 finished: drop_classes: ['CCOC(=O)C1=C(C)N=C(C2=CC(=C(C=C2)O)C=O)S1', 'OCC(NC(OC(C)(C)C)=O)C(O)=O', 'C1=CC=C(C(=C1)[N+](=O)[O-])O', 'C1=C(C=CC(=C1)O)O', 'C1=C(C=CN=C1)C(=O)O', 'CC(=O)O']
+Itr 2 start
+k_num: 10
+                                                 smiles  0  ...  1190  ScreenLabel
+0                                    C1=C(CCCCO)C=CC=C1  0  ...     0         BASE
+1                                  COC1=CC=C(CCO)C=C1OC  0  ...     0         BASE
+2                                   C[C@@H](O)[C@H](O)C  0  ...     0         BASE
+3                                         OCCOCCOCCCCCC  0  ...     0         BASE
+4                                             OCC1CNCC1  0  ...     0         BASE
+...                                                 ... ..  ...   ...          ...
+7963  [C@@H](CC1=CC=CC=C1)(NC([C@@H](NCCC(C)(C)C)CC(...  0  ...     0         BASE
+7964  [C@@H]([C@H](NC(C(Cl)Cl)=O)CF)(O)C1=CC=C(S(C)(...  0  ...     0         BASE
+7965    [C@@H]([C@H](C(=O)[O-])O)(C(=O)[O-])O.[K+].[K+]  0  ...     0         BASE
+7966  [Br-].O=C(O)CCCCCN1C=2C=CC=CC2C(C1=CC=C3C(Cl)=...  0  ...     0         BASE
+7967  [2H]C([2H])([2H])C(O)(C([2H])([2H])[2H])C([2H]...  0  ...     0         BASE
+
+[7968 rows x 1193 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+找到 10 个已采样点作为CVT固定中心点
+没有找到ScreenLabel='Excluded_Sampled'的点，不计算排斥力
+CVT计算将使用所有 7968 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 19
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 9.505366e+12, CVT权重: 1.0
+迭代 0: 总能量 = 283707.125611, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 283707.125611
+加权CVT采样完成，采样了 10 个点
+                                             smiles  0  ...  1190  ScreenLabel
+0                                              CCCO  0  ...     0         BASE
+1                               C1=CC=C(C=C1)C(=O)O  0  ...     0         BASE
+2                      C1=C(C=CC(=C1)O)[N+](=O)[O-]  0  ...     0         BASE
+3  OC[C@H](C(O)=O)NC(OCC1C2=CC=CC=C2C3=CC=CC=C31)=O  0  ...     1         BASE
+4                            CC(C)(OC(NCC(O)=O)=O)C  0  ...     0         BASE
+5                 C1=CC=C(C(=C1)C(=O)O)[N+](=O)[O-]  0  ...     0         BASE
+6                    O[C@H]1[C@@H](O)C(O)O[C@@H]1CO  0  ...     0         BASE
+7                                          C1CN1CCO  0  ...     0         BASE
+8                                          NCC(O)=O  0  ...     0         BASE
+9                                 C1=CC=C(C(=C1)O)O  0  ...     0         BASE
+
+[10 rows x 1193 columns]
+OK: 66
+Error: No alcohol found
+Error: No alcohol found
+Itr 2 finished: drop_classes: ['CCOC(=O)C1=C(C)N=C(C2=CC(=C(C=C2)O)C=O)S1', 'OCC(NC(OC(C)(C)C)=O)C(O)=O', 'C1=CC=C(C(=C1)[N+](=O)[O-])O', 'C1=C(C=CC(=C1)O)O', 'C1=C(C=CN=C1)C(=O)O', 'CC(=O)O', 'C1=CC=C(C=C1)C(=O)O', 'C1=C(C=CC(=C1)O)[N+](=O)[O-]', 'OC[C@H](C(O)=O)NC(OCC1C2=CC=CC=C2C3=CC=CC=C31)=O', 'CC(C)(OC(NCC(O)=O)=O)C', 'C1=CC=C(C(=C1)C(=O)O)[N+](=O)[O-]', 'O[C@H]1[C@@H](O)C(O)O[C@@H]1CO', 'C1CN1CCO', 'NCC(O)=O', 'C1=CC=C(C(=C1)O)O']
+Itr 3 start
+k_num: 10
+                                                 smiles  0  ...  1190  ScreenLabel
+0                                    C1=C(CCCCO)C=CC=C1  0  ...     0         BASE
+1                                  COC1=CC=C(CCO)C=C1OC  0  ...     0         BASE
+2                                   C[C@@H](O)[C@H](O)C  0  ...     0         BASE
+3                                         OCCOCCOCCCCCC  0  ...     0         BASE
+4                                             OCC1CNCC1  0  ...     0         BASE
+...                                                 ... ..  ...   ...          ...
+7963  [C@@H](CC1=CC=CC=C1)(NC([C@@H](NCCC(C)(C)C)CC(...  0  ...     0         BASE
+7964  [C@@H]([C@H](NC(C(Cl)Cl)=O)CF)(O)C1=CC=C(S(C)(...  0  ...     0         BASE
+7965    [C@@H]([C@H](C(=O)[O-])O)(C(=O)[O-])O.[K+].[K+]  0  ...     0         BASE
+7966  [Br-].O=C(O)CCCCCN1C=2C=CC=CC2C(C1=CC=C3C(Cl)=...  0  ...     0         BASE
+7967  [2H]C([2H])([2H])C(O)(C([2H])([2H])[2H])C([2H]...  0  ...     0         BASE
+
+[7968 rows x 1193 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+找到 20 个已采样点作为CVT固定中心点
+没有找到ScreenLabel='Excluded_Sampled'的点，不计算排斥力
+CVT计算将使用所有 7968 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 35
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 9.505366e+12, CVT权重: 1.0
+加权能量优化收敛, 迭代次数: 9, 最终能量: 284382.479025
+加权CVT采样完成，采样了 10 个点
+                                              smiles  0  ...  1190  ScreenLabel
+0                                           C(CCO)CO  0  ...     0         BASE
+1                    O=C1N(C(=O)N(C(=O)N1CCO)CCO)CCO  0  ...     0         BASE
+2                                       OC1=CC=NC=C1  0  ...     0         BASE
+3                          CC(C(=O)O)NC(=O)OC(C)(C)C  0  ...     0         BASE
+4            O=C(C1=CC(C(O)=O)=C(C(O)=O)C=C1C(O)=O)O  0  ...     0         BASE
+5  OCC1=C[C@@]2([H])[C@H](C3(C)C)[C@@]3(OC(C)=O)[...  0  ...     0         BASE
+6                              O[C@H]1CC[C@@H](O)CC1  0  ...     0         BASE
+7                    C1=CC(=C(C(=C1)O)[N+](=O)[O-])O  0  ...     0         BASE
+8  C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2[O-])O)O)...  0  ...     0         BASE
+9                                 OC1=CC(O)=CC(O)=C1  0  ...     0         BASE
+
+[10 rows x 1193 columns]
+OK: 62
+OK: 42
+Error: No alcohol found
+Error: No alcohol found
+Error: No alcohol found
+Itr 3 finished: drop_classes: ['CCOC(=O)C1=C(C)N=C(C2=CC(=C(C=C2)O)C=O)S1', 'OCC(NC(OC(C)(C)C)=O)C(O)=O', 'C1=CC=C(C(=C1)[N+](=O)[O-])O', 'C1=C(C=CC(=C1)O)O', 'C1=C(C=CN=C1)C(=O)O', 'CC(=O)O', 'C1=CC=C(C=C1)C(=O)O', 'C1=C(C=CC(=C1)O)[N+](=O)[O-]', 'OC[C@H](C(O)=O)NC(OCC1C2=CC=CC=C2C3=CC=CC=C31)=O', 'CC(C)(OC(NCC(O)=O)=O)C', 'C1=CC=C(C(=C1)C(=O)O)[N+](=O)[O-]', 'O[C@H]1[C@@H](O)C(O)O[C@@H]1CO', 'C1CN1CCO', 'NCC(O)=O', 'C1=CC=C(C(=C1)O)O', 'OC1=CC=NC=C1', 'CC(C(=O)O)NC(=O)OC(C)(C)C', 'O=C(C1=CC(C(O)=O)=C(C(O)=O)C=C1C(O)=O)O', 'OCC1=C[C@@]2([H])[C@H](C3(C)C)[C@@]3(OC(C)=O)[C@H](OC(CCCCCCCCCCCCC)=O)[C@@H](C)[C@@]2([C@@]([H])([C@@]4(C1)O)C=C(C4=O)C)O', 'C1=CC(=C(C(=C1)O)[N+](=O)[O-])O', 'C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2[O-])O)O)O)O.Cl', 'OC1=CC(O)=CC(O)=C1']
+Itr 4 start
+k_num: 10
+                                                 smiles  0  ...  1190  ScreenLabel
+0                                    C1=C(CCCCO)C=CC=C1  0  ...     0         BASE
+1                                  COC1=CC=C(CCO)C=C1OC  0  ...     0         BASE
+2                                   C[C@@H](O)[C@H](O)C  0  ...     0         BASE
+3                                         OCCOCCOCCCCCC  0  ...     0         BASE
+4                                             OCC1CNCC1  0  ...     0         BASE
+...                                                 ... ..  ...   ...          ...
+7963  [C@@H](CC1=CC=CC=C1)(NC([C@@H](NCCC(C)(C)C)CC(...  0  ...     0         BASE
+7964  [C@@H]([C@H](NC(C(Cl)Cl)=O)CF)(O)C1=CC=C(S(C)(...  0  ...     0         BASE
+7965    [C@@H]([C@H](C(=O)[O-])O)(C(=O)[O-])O.[K+].[K+]  0  ...     0         BASE
+7966  [Br-].O=C(O)CCCCCN1C=2C=CC=CC2C(C1=CC=C3C(Cl)=...  0  ...     0         BASE
+7967  [2H]C([2H])([2H])C(O)(C([2H])([2H])[2H])C([2H]...  0  ...     0         BASE
+
+[7968 rows x 1193 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+找到 30 个已采样点作为CVT固定中心点
+没有找到ScreenLabel='Excluded_Sampled'的点，不计算排斥力
+CVT计算将使用所有 7968 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 30
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 9.505366e+12, CVT权重: 1.0
+迭代 0: 总能量 = 277729.423798, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 277729.423798
+加权CVT采样完成，采样了 10 个点
+                           smiles  0  1  2  ...  1188  1189  1190  ScreenLabel
+0  C(=O)(OC(C)(C)C)N1CC[C@H](C1)O  0  0  0  ...     0     0     0         BASE
+1    C1=CC=C(C=C1)C[C@H](C(=O)O)N  0  0  0  ...     0     0     0         BASE
+2                  C1=CC=C(C=C1)O  0  0  0  ...     0     0     0         BASE
+3                 C(CS(=O)(=O)O)O  0  0  0  ...     0     0     0         BASE
+4               OCC1=CC=C(CO)C=C1  0  0  0  ...     0     0     0         BASE
+5                    C1CC(CCC1O)O  0  0  0  ...     0     0     0         BASE
+6            C1(=NC(=NC(=N1)O)O)O  0  0  0  ...     0     0     0         BASE
+7     C1=C(C=CC(=C1)C(=O)O)C(=O)O  0  0  0  ...     0     0     0         BASE
+8  CC[C@H](NC(OC(C)(C)C)=O)C(O)=O  0  0  0  ...     0     0     0         BASE
+9                             CCO  0  0  0  ...     0     0     0         BASE
+
+[10 rows x 1193 columns]
+Error: No alcohol found
+OK: 72
+OK: 52
+OK: 70
+Itr 4 finished: drop_classes: ['CCOC(=O)C1=C(C)N=C(C2=CC(=C(C=C2)O)C=O)S1', 'OCC(NC(OC(C)(C)C)=O)C(O)=O', 'C1=CC=C(C(=C1)[N+](=O)[O-])O', 'C1=C(C=CC(=C1)O)O', 'C1=C(C=CN=C1)C(=O)O', 'CC(=O)O', 'C1=CC=C(C=C1)C(=O)O', 'C1=C(C=CC(=C1)O)[N+](=O)[O-]', 'OC[C@H](C(O)=O)NC(OCC1C2=CC=CC=C2C3=CC=CC=C31)=O', 'CC(C)(OC(NCC(O)=O)=O)C', 'C1=CC=C(C(=C1)C(=O)O)[N+](=O)[O-]', 'O[C@H]1[C@@H](O)C(O)O[C@@H]1CO', 'C1CN1CCO', 'NCC(O)=O', 'C1=CC=C(C(=C1)O)O', 'OC1=CC=NC=C1', 'CC(C(=O)O)NC(=O)OC(C)(C)C', 'O=C(C1=CC(C(O)=O)=C(C(O)=O)C=C1C(O)=O)O', 'OCC1=C[C@@]2([H])[C@H](C3(C)C)[C@@]3(OC(C)=O)[C@H](OC(CCCCCCCCCCCCC)=O)[C@@H](C)[C@@]2([C@@]([H])([C@@]4(C1)O)C=C(C4=O)C)O', 'C1=CC(=C(C(=C1)O)[N+](=O)[O-])O', 'C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2[O-])O)O)O)O.Cl', 'OC1=CC(O)=CC(O)=C1', 'C(=O)(OC(C)(C)C)N1CC[C@H](C1)O', 'C1=CC=C(C=C1)C[C@H](C(=O)O)N', 'C1=CC=C(C=C1)O', 'C(CS(=O)(=O)O)O', 'C1(=NC(=NC(=N1)O)O)O', 'C1=C(C=CC(=C1)C(=O)O)C(=O)O', 'CC[C@H](NC(OC(C)(C)C)=O)C(O)=O']
+Itr 5 start
+k_num: 10
+                                                 smiles  0  ...  1190  ScreenLabel
+0                                    C1=C(CCCCO)C=CC=C1  0  ...     0         BASE
+1                                  COC1=CC=C(CCO)C=C1OC  0  ...     0         BASE
+2                                   C[C@@H](O)[C@H](O)C  0  ...     0         BASE
+3                                         OCCOCCOCCCCCC  0  ...     0         BASE
+4                                             OCC1CNCC1  0  ...     0         BASE
+...                                                 ... ..  ...   ...          ...
+7963  [C@@H](CC1=CC=CC=C1)(NC([C@@H](NCCC(C)(C)C)CC(...  0  ...     0         BASE
+7964  [C@@H]([C@H](NC(C(Cl)Cl)=O)CF)(O)C1=CC=C(S(C)(...  0  ...     0         BASE
+7965    [C@@H]([C@H](C(=O)[O-])O)(C(=O)[O-])O.[K+].[K+]  0  ...     0         BASE
+7966  [Br-].O=C(O)CCCCCN1C=2C=CC=CC2C(C1=CC=C3C(Cl)=...  0  ...     0         BASE
+7967  [2H]C([2H])([2H])C(O)(C([2H])([2H])[2H])C([2H]...  0  ...     0         BASE
+
+[7968 rows x 1193 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 18.654758
+均匀采样下采样点间期望平方距离: 34539.000000
+基础排斥系数: 9.505366e+12
+最终排斥强度 (base * 10^0.0): 9.505366e+12
+找到 40 个已采样点作为CVT固定中心点
+没有找到ScreenLabel='Excluded_Sampled'的点，不计算排斥力
+CVT计算将使用所有 7968 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 30
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 9.505366e+12, CVT权重: 1.0
+迭代 0: 总能量 = 278954.588517, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 1, 最终能量: 278954.588517
+加权CVT采样完成，采样了 10 个点
+                                              smiles  0  ...  1190  ScreenLabel
+0                                C1=CC=NC(=C1)C(=O)O  0  ...     0         BASE
+1                               C1=CC(=C(C(=C1)F)O)F  0  ...     0         BASE
+2                                          C(CCO)CCO  0  ...     0         BASE
+3                 C[C@@H](NC(OCC1=CC=CC=C1)=O)C(O)=O  0  ...     0         BASE
+4                             O=C1OC[C@@H](O)[C@H]1O  0  ...     0         BASE
+5  CCCCC1=NC(=C(CO)N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=...  0  ...     1         BASE
+6                                          OC1CCNCC1  0  ...     0         BASE
+7                                     OCCC1=CC=CC=C1  0  ...     0         BASE
+8                                OC1=CC(O)=C(O)C=C1O  0  ...     0         BASE
+9                                         C(C(=O)O)O  0  ...     0         BASE
+
+[10 rows x 1193 columns]
+Error: No alcohol found
+OK: 58
+OK: 39
+Error: No alcohol found
+OK: 52
+Itr 5 finished: drop_classes: ['CCOC(=O)C1=C(C)N=C(C2=CC(=C(C=C2)O)C=O)S1', 'OCC(NC(OC(C)(C)C)=O)C(O)=O', 'C1=CC=C(C(=C1)[N+](=O)[O-])O', 'C1=C(C=CC(=C1)O)O', 'C1=C(C=CN=C1)C(=O)O', 'CC(=O)O', 'C1=CC=C(C=C1)C(=O)O', 'C1=C(C=CC(=C1)O)[N+](=O)[O-]', 'OC[C@H](C(O)=O)NC(OCC1C2=CC=CC=C2C3=CC=CC=C31)=O', 'CC(C)(OC(NCC(O)=O)=O)C', 'C1=CC=C(C(=C1)C(=O)O)[N+](=O)[O-]', 'O[C@H]1[C@@H](O)C(O)O[C@@H]1CO', 'C1CN1CCO', 'NCC(O)=O', 'C1=CC=C(C(=C1)O)O', 'OC1=CC=NC=C1', 'CC(C(=O)O)NC(=O)OC(C)(C)C', 'O=C(C1=CC(C(O)=O)=C(C(O)=O)C=C1C(O)=O)O', 'OCC1=C[C@@]2([H])[C@H](C3(C)C)[C@@]3(OC(C)=O)[C@H](OC(CCCCCCCCCCCCC)=O)[C@@H](C)[C@@]2([C@@]([H])([C@@]4(C1)O)C=C(C4=O)C)O', 'C1=CC(=C(C(=C1)O)[N+](=O)[O-])O', 'C1=CC(=C(C=C1C2=[O+]C3=CC(=CC(=C3C=C2[O-])O)O)O)O.Cl', 'OC1=CC(O)=CC(O)=C1', 'C(=O)(OC(C)(C)C)N1CC[C@H](C1)O', 'C1=CC=C(C=C1)C[C@H](C(=O)O)N', 'C1=CC=C(C=C1)O', 'C(CS(=O)(=O)O)O', 'C1(=NC(=NC(=N1)O)O)O', 'C1=C(C=CC(=C1)C(=O)O)C(=O)O', 'CC[C@H](NC(OC(C)(C)C)=O)C(O)=O', 'C1=CC=NC(=C1)C(=O)O', 'C1=CC(=C(C(=C1)F)O)F', 'C[C@@H](NC(OCC1=CC=CC=C1)=O)C(O)=O', 'O=C1OC[C@@H](O)[C@H]1O', 'CCCCC1=NC(=C(CO)N1CC2=CC=C(C=C2)C3=CC=CC=C3C4=NNN=N4)Cl', 'OC1CCNCC1', 'OC1=CC(O)=C(O)C=C1O']
+Sampling finished.
+OK samples: ['OCCCCOC1CCCO1', 'OCC', 'OCC1=CC=C(C(C)(C)C)C=C1', 'OCC1CCCCC1', 'OC', 'OC1CC(C(OC)=O)C1', 'OCC1=CC=CC=C1[N+]([O-])=O', 'OCC1=CC=C(C2=CC=CC=C2)C=C1', 'OCC1=CC=C([H])C=C1', 'OCC1=CC=C(OC)C=C1', 'OCC1=CC=C([N+]([O-])=O)C=C1', 'OC1CCC1']
+Done
