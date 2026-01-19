@@ -135,7 +135,7 @@ Each example includes complete data files, sampling scripts, evaluation results 
 
 ## Web Service
 
-The web service is currently under deployment. Please stay tuned for the upcoming online experience.
+The web service is available at: http://database.luo-group.com:18081/
 
 ## License
 
