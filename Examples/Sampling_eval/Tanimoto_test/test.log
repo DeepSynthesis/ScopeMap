@@ -1,0 +1,128 @@
+nohup: ignoring input
+(1091, 1193)
+/home/ljw/1700/1700/revision1/tanimoto/test.py:143: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  all_data['ScreenLabel'] = 'BASE'
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...  21.0         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...  93.0         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...  25.0         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...  15.0         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...  17.0         BASE
+
+[33162 rows x 1194 columns]
+Itr 1 start
+k_num: 10
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...  21.0         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...  93.0         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...  25.0         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...  15.0         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...  17.0         BASE
+
+[33162 rows x 1194 columns]
+Calculating maximum distance between two points in data...
+Maximum distance in data: 0.960591
+Expected square distance between sampling points under uniform sampling: 91.581481
+Base repulsion coefficient: 2.781353e+08
+Final repulsion strength (base * 10^0.0): 2.781353e+08
+Found 0 already sampled points as CVT fixed center points
+No points with ScreenLabel='Excluded_Sampled' found, no repulsion force calculated
+CVT calculation will use all 33162 data points
+Stage 1: Initializing center points using analytical CVT method (100 iterations)
+Analytical CVT converged, iterations: 37
+Stage 2: Weighted energy optimization based on analytical CVT initial guess (max 500 iterations)
+Starting weighted energy optimization, repulsion strength: 2.781353e+08, CVT weight: 1.0
+Iteration 0: Total energy = 19172.931759, Learning rate = 0.010000
+Iteration 10: Total energy = 17162.732053, Learning rate = 0.010000
+Iteration 20: Total energy = 17136.425291, Learning rate = 0.010000
+Weighted energy optimization converged, iterations: 24, final energy: 17131.728828
+Weighted CVT sampling completed, sampled 10 points
+                               smiles  0  1  2  ...  1189  1190  conv  ScreenLabel
+0  COc1cc(C=O)ccc1OCCOc1ccc(C=O)cc1OC  0  0  0  ...     0     0   NaN         BASE
+1         O=Cc1ccc(-c2ccc(C=O)cc2)cc1  0  0  0  ...     0     0   NaN         BASE
+2                O=Cc1cc(F)c(Cl)cc1Br  0  0  0  ...     0     0   NaN         BASE
+3                   COc1ncnc(OC)c1C=O  0  0  0  ...     0     0   NaN         BASE
+4                       O=Cc1cccnc1Cl  0  0  0  ...     0     0   NaN         BASE
+5                     Cc1cc(C=O)sc1Br  0  0  0  ...     0     0  98.0         BASE
+6         COc1ccc([N+](=O)[O-])cc1C=O  0  0  0  ...     0     0   NaN         BASE
+7                   Cn1cc(C=O)c(Cl)n1  0  0  0  ...     0     0   NaN         BASE
+8           O=Cc1cccnc1N1CC[C@H](O)C1  0  0  0  ...     0     0   NaN         BASE
+9                    COc1ccc(F)cc1C=O  0  0  0  ...     0     0  98.0         BASE
+
+[10 rows x 1194 columns]
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: 98.0
+OK: nan
+OK: 98.0
+Itr 1 finished: drop_classes: [0, 7, 8]
+Itr 2 start
+k_num: 10
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...  21.0         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...  93.0         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...  25.0         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...  15.0         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...  17.0         BASE
+
+[33162 rows x 1194 columns]
+Calculating maximum distance between two points in data...
+Maximum distance in data: 0.960591
+Expected square distance between sampling points under uniform sampling: 91.581481
+Base repulsion coefficient: 2.781353e+08
+Final repulsion strength (base * 10^0.0): 2.781353e+08
+Found 13 already sampled points as CVT fixed center points
+Using 3 points with ScreenLabel='Excluded_Sampled' for repulsion force calculation
+CVT calculation will use all 33162 data points
+Stage 1: Initializing center points using analytical CVT method (100 iterations)
+Analytical CVT converged, iterations: 40
+Stage 2: Weighted energy optimization based on analytical CVT initial guess (max 500 iterations)
+Starting weighted energy optimization, repulsion strength: 2.781353e+08, CVT weight: 1.0
+Iteration 0: Total energy = 12583002550.983530, Learning rate = 0.010000
+Weighted energy optimization converged, iterations: 2, final energy: 8344050793.573073
+Weighted CVT sampling completed, sampled 10 points
+                               smiles  0  1  2  ...  1189  1190  conv  ScreenLabel
+0                       O=C[c-]1cccc1  0  0  0  ...     0     0   NaN         BASE
+1  O=Cc1c2ccccc2c(C=O)c2c1ccc1ccccc12  0  0  0  ...     0     0   NaN         BASE
+2           O=Cc1cc(Br)cc(C(F)(F)F)c1  0  0  0  ...     0     0  91.0         BASE
+3                    O=Cc1ccc2sccc2c1  0  0  0  ...     0     0   NaN         BASE
+4           O=Cc1c(F)c(F)c(F)c(F)c1Br  0  0  0  ...     0     0   NaN         BASE
+5        O=Cc1ccc2c(-c3ccccc3)cccc2c1  0  0  0  ...     1     0   NaN         BASE
+6            O=Cc1ccc2c(Br)cc(F)cc2c1  0  0  0  ...     0     0   NaN         BASE
+7       O=Cc1c2ccccc2cc2c1ccc1ccccc12  0  0  0  ...     0     0   NaN         BASE
+8                      O=Cc1cccc(S)c1  0  0  0  ...     0     0   NaN         BASE
+9                O=Cc1ccc(C(F)(F)F)o1  0  0  0  ...     0     0   NaN         BASE
+
+[10 rows x 1194 columns]
+OK: nan
+OK: 91.0
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+Itr 2 finished: drop_classes: [1, 5]
+Sampling finished.
+OK samples: ['O=Cc1cccc(S)c1', 'COc1ccc(F)cc1C=O', 'COc1ccc([N+](=O)[O-])cc1C=O', 'O=Cc1c(F)c(F)c(F)c(F)c1Br', 'O=Cc1cccnc1Cl', 'Cc1cc(C=O)sc1Br', 'COc1ncnc(OC)c1C=O', 'O=Cc1cc(F)c(Cl)cc1Br', 'O=Cc1cc(Br)cc(C(F)(F)F)c1', 'O=Cc1ccc(-c2ccc(C=O)cc2)cc1', 'O=C[c-]1cccc1', 'O=Cc1ccc2sccc2c1', 'O=Cc1ccc2c(Br)cc(F)cc2c1', 'O=Cc1ccc(C(F)(F)F)o1', 'O=Cc1c2ccccc2cc2c1ccc1ccccc12']
+Done

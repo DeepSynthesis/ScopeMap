@@ -1,0 +1,745 @@
+nohup: ignoring input
+(1091, 1193)
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...   21%         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...   93%         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...   25%         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...   15%         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...   17%         BASE
+
+[33162 rows x 1194 columns]
+特征列数量: 1191
+
+========== Running with seed=0 ==========
+
+=== 预采样阶段: 计算缩放因子 (n=10) ===
+预采样统计:
+  熵: mean=5450.9755, std=0.0000
+  反应产率: mean=0.2670, std=0.4094
+  熵缩放因子: 1.000000
+  预采样 OK: 3, Drop: 7
+[I 2026-03-26 15:27:36,583] A new study created in memory with name: no-name-1e646f02-c51d-46c8-a6db-43c6c40ebd8b
+[SAVE] Itr 1: saved after 10 samplings (pre-sampled)
+
+=== 初始TPE阶段: 运行 10 trials 建立先验 ===
+[I 2026-03-26 15:27:37,293] Trial 0 finished with value: 0.49 and parameters: {'sample_idx': 18194}. Best is trial 0 with value: 0.49.
+[I 2026-03-26 15:27:37,827] Trial 1 finished with value: 0.0 and parameters: {'sample_idx': 23709}. Best is trial 0 with value: 0.49.
+[I 2026-03-26 15:27:38,361] Trial 2 finished with value: 0.0 and parameters: {'sample_idx': 19982}. Best is trial 0 with value: 0.49.
+[I 2026-03-26 15:27:38,917] Trial 3 finished with value: 0.495 and parameters: {'sample_idx': 18063}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:39,440] Trial 4 finished with value: 0.465 and parameters: {'sample_idx': 14045}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:40,082] Trial 5 finished with value: 0.0 and parameters: {'sample_idx': 21412}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:40,692] Trial 6 finished with value: 0.0 and parameters: {'sample_idx': 14506}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:41,306] Trial 7 finished with value: 0.0 and parameters: {'sample_idx': 29564}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:41,849] Trial 8 finished with value: 0.0 and parameters: {'sample_idx': 31947}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:42,418] Trial 9 finished with value: 0.0 and parameters: {'sample_idx': 12711}. Best is trial 3 with value: 0.495.
+初始trials完成，总trials数: 10
+
+[TPE] Itr 1 start
+可用数据数量: 33152
+[I 2026-03-26 15:27:44,981] Trial 10 finished with value: 0.435 and parameters: {'sample_idx': 2138}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:45,562] Trial 11 finished with value: 0.49 and parameters: {'sample_idx': 7729}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:46,100] Trial 12 finished with value: 0.47 and parameters: {'sample_idx': 9345}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:46,711] Trial 13 finished with value: 0.49 and parameters: {'sample_idx': 24273}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:47,269] Trial 14 finished with value: 0.495 and parameters: {'sample_idx': 18218}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:47,889] Trial 15 finished with value: 0.465 and parameters: {'sample_idx': 26590}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:48,471] Trial 16 finished with value: 0.405 and parameters: {'sample_idx': 8939}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:49,053] Trial 17 finished with value: 0.45 and parameters: {'sample_idx': 17162}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:49,613] Trial 18 finished with value: 0.0 and parameters: {'sample_idx': 432}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:27:50,214] Trial 19 finished with value: 0.495 and parameters: {'sample_idx': 5951}. Best is trial 3 with value: 0.495.
+累积trials数: 20
+采样了 10 个点
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+[SAVE] Itr 2: saved after 20 samplings
+[TPE] Itr 1 finished: drop_classes: []
+
+[TPE] Itr 2 start
+可用数据数量: 33141
+[I 2026-03-26 15:28:01,782] Trial 20 finished with value: 0.0 and parameters: {'sample_idx': 11733}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:02,368] Trial 21 finished with value: 0.0 and parameters: {'sample_idx': 4580}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:02,964] Trial 22 finished with value: 0.495 and parameters: {'sample_idx': 16439}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:03,533] Trial 23 finished with value: 0.0 and parameters: {'sample_idx': 5403}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:04,091] Trial 24 finished with value: 0.26 and parameters: {'sample_idx': 19154}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:04,692] Trial 25 finished with value: 0.0 and parameters: {'sample_idx': 23609}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:05,264] Trial 26 finished with value: 0.0 and parameters: {'sample_idx': 15753}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:05,854] Trial 27 finished with value: 0.0 and parameters: {'sample_idx': 21297}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:06,428] Trial 28 finished with value: 0.0 and parameters: {'sample_idx': 11282}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:06,971] Trial 29 finished with value: 0.0 and parameters: {'sample_idx': 18358}. Best is trial 3 with value: 0.495.
+累积trials数: 30
+采样了 10 个点
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+[SAVE] Itr 3: saved after 30 samplings
+[TPE] Itr 2 finished: drop_classes: [2, 5, 6, 8]
+
+[TPE] Itr 3 start
+可用数据数量: 33131
+[I 2026-03-26 15:28:19,709] Trial 30 finished with value: 0.475 and parameters: {'sample_idx': 27028}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:20,260] Trial 31 finished with value: 0.0 and parameters: {'sample_idx': 16048}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:20,808] Trial 32 finished with value: 0.0 and parameters: {'sample_idx': 21720}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:21,361] Trial 33 finished with value: 0.495 and parameters: {'sample_idx': 18132}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:21,916] Trial 34 finished with value: 0.0 and parameters: {'sample_idx': 14109}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:22,473] Trial 35 finished with value: 0.0 and parameters: {'sample_idx': 4846}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:23,027] Trial 36 finished with value: 0.0 and parameters: {'sample_idx': 20665}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:23,598] Trial 37 finished with value: 0.0 and parameters: {'sample_idx': 24263}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:24,146] Trial 38 finished with value: 0.0 and parameters: {'sample_idx': 15179}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:24,725] Trial 39 finished with value: 0.0 and parameters: {'sample_idx': 12081}. Best is trial 3 with value: 0.495.
+累积trials数: 40
+采样了 10 个点
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+[SAVE] Itr 4: saved after 40 samplings
+[TPE] Itr 3 finished: drop_classes: [0, 1, 2, 3, 6]
+
+[TPE] Itr 4 start
+可用数据数量: 33121
+[I 2026-03-26 15:28:35,408] Trial 40 finished with value: 0.495 and parameters: {'sample_idx': 17029}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:35,859] Trial 41 finished with value: 0.405 and parameters: {'sample_idx': 18724}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:36,406] Trial 42 finished with value: 0.0 and parameters: {'sample_idx': 22591}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:36,983] Trial 43 finished with value: 0.42 and parameters: {'sample_idx': 19621}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:37,529] Trial 44 finished with value: 0.235 and parameters: {'sample_idx': 17539}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:38,072] Trial 45 finished with value: 0.0 and parameters: {'sample_idx': 13486}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:38,624] Trial 46 finished with value: 0.0 and parameters: {'sample_idx': 26230}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:39,174] Trial 47 finished with value: 0.495 and parameters: {'sample_idx': 32729}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:39,720] Trial 48 finished with value: 0.0 and parameters: {'sample_idx': 8306}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:40,350] Trial 49 finished with value: 0.465 and parameters: {'sample_idx': 6573}. Best is trial 3 with value: 0.495.
+累积trials数: 50
+采样了 10 个点
+OK: nan
+OK: 99%
+OK: nan
+[SAVE] Itr 5: saved after 50 samplings
+[TPE] Itr 4 finished: drop_classes: [0, 1, 2, 3, 4, 8, 9]
+
+[TPE] Itr 5 start
+可用数据数量: 33109
+[I 2026-03-26 15:28:52,542] Trial 50 finished with value: 0.0 and parameters: {'sample_idx': 29491}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:53,137] Trial 51 finished with value: 0.0 and parameters: {'sample_idx': 10123}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:53,742] Trial 52 finished with value: 0.495 and parameters: {'sample_idx': 17365}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:54,317] Trial 53 finished with value: 0.0 and parameters: {'sample_idx': 16597}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:54,892] Trial 54 finished with value: 0.0 and parameters: {'sample_idx': 20061}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:55,436] Trial 55 finished with value: 0.0 and parameters: {'sample_idx': 13138}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:56,087] Trial 56 finished with value: 0.45 and parameters: {'sample_idx': 2756}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:56,693] Trial 57 finished with value: 0.0 and parameters: {'sample_idx': 22580}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:57,307] Trial 58 finished with value: 0.0 and parameters: {'sample_idx': 14776}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:28:58,018] Trial 59 finished with value: 0.0 and parameters: {'sample_idx': 10708}. Best is trial 3 with value: 0.495.
+累积trials数: 60
+采样了 10 个点
+OK: nan
+OK: 89%
+OK: nan
+[TPE] Itr 5 finished: drop_classes: [0, 2, 3, 4, 5, 8, 9]
+
+[TPE] Sampling finished.
+[TPE] OK samples: ['Cc1cc(OCC2CC2)ncc1C=O', 'O=Cc1c(F)ccc(F)c1OC(F)(F)F', 'COc1cc2oc(=O)ccc2cc1C=O', 'Cc1nc2c(C=O)cccc2s1', 'O=Cc1cc(C(F)(F)F)cnc1F', 'COc1cccc(Cl)c1-c1cccc(C=O)c1', 'O=Cc1ccccc1C(=O)C1CC1', 'COc1ccc(Cl)c(C=O)c1F', 'Cc1cc2nc(C=O)ccc2cc1F', 'O=Cc1ccnc(-c2ccco2)c1', 'O=Cc1ncc(Br)cc1C(F)(F)F', 'Cc1ccc(C=O)c(-c2cncnc2)c1', 'COc1ccc(OC(C)C)c(C=O)c1', 'CCc1cc(C=O)c(CC)cc1C=O', 'O=Cc1ccnc(N2CCCC2)c1', 'O=Cc1ccc(-c2cc(F)ccc2F)cc1F', 'COc1ccc2ccnc(C=O)c2c1', 'O=Cc1ccc(F)c(-c2c(F)cccc2Cl)c1', 'O=Cc1ccc(N2CC=CC2)nc1', 'COc1ccc2nccc(C=O)c2n1', 'CC(C)Cc1cnccc1C=O', 'COc1ccc2ncc(C=O)n2c1', 'CCCCc1ccc(C=O)o1', 'Cc1cc(Cl)c(C=O)c(C)n1', 'Cc1ccncc1C=O', 'COc1c(Br)cc(C=O)c(F)c1Br', 'O=Cc1ccc(SC2CCCCC2)cc1', 'O=Cc1cccc(-c2ccc(F)c(C(F)(F)F)c2)c1', 'O=Cc1cccc2ccoc12', 'CC(C)CSc1cccc(C=O)c1']
+[TPE] Dropped samples: 30
+========== Seed 0 finished ==========
+
+
+========== Running with seed=1 ==========
+
+=== 预采样阶段: 计算缩放因子 (n=10) ===
+预采样统计:
+  熵: mean=5460.4831, std=0.0000
+  反应产率: mean=0.1970, std=0.3940
+  熵缩放因子: 1.000000
+  预采样 OK: 2, Drop: 8
+[I 2026-03-26 15:29:22,935] A new study created in memory with name: no-name-6cc70db0-fcab-4953-b9e1-c74aff4e7996
+[SAVE] Itr 1: saved after 10 samplings (pre-sampled)
+
+=== 初始TPE阶段: 运行 10 trials 建立先验 ===
+[I 2026-03-26 15:29:23,671] Trial 0 finished with value: 0.0 and parameters: {'sample_idx': 13824}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:29:24,195] Trial 1 finished with value: 0.0 and parameters: {'sample_idx': 23879}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:29:24,686] Trial 2 finished with value: 0.0 and parameters: {'sample_idx': 3}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:29:25,126] Trial 3 finished with value: 0.0 and parameters: {'sample_idx': 10022}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:29:25,584] Trial 4 finished with value: 0.495 and parameters: {'sample_idx': 4865}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:26,041] Trial 5 finished with value: 0.0 and parameters: {'sample_idx': 3061}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:26,497] Trial 6 finished with value: 0.455 and parameters: {'sample_idx': 6174}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:26,950] Trial 7 finished with value: 0.0 and parameters: {'sample_idx': 11455}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:27,433] Trial 8 finished with value: 0.0 and parameters: {'sample_idx': 13153}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:27,888] Trial 9 finished with value: 0.265 and parameters: {'sample_idx': 17862}. Best is trial 4 with value: 0.495.
+初始trials完成，总trials数: 10
+
+[TPE] Itr 1 start
+可用数据数量: 33151
+[I 2026-03-26 15:29:29,912] Trial 10 finished with value: 0.495 and parameters: {'sample_idx': 30236}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:30,378] Trial 11 finished with value: 0.49 and parameters: {'sample_idx': 32451}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:30,918] Trial 12 finished with value: 0.365 and parameters: {'sample_idx': 32063}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:31,448] Trial 13 finished with value: 0.0 and parameters: {'sample_idx': 23375}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:31,983] Trial 14 finished with value: 0.0 and parameters: {'sample_idx': 26211}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:32,516] Trial 15 finished with value: 0.0 and parameters: {'sample_idx': 18477}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:33,086] Trial 16 finished with value: 0.0 and parameters: {'sample_idx': 8006}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:33,673] Trial 17 finished with value: 0.475 and parameters: {'sample_idx': 27057}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:34,237] Trial 18 finished with value: 0.31 and parameters: {'sample_idx': 20539}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:34,805] Trial 19 finished with value: 0.0 and parameters: {'sample_idx': 29325}. Best is trial 4 with value: 0.495.
+累积trials数: 20
+采样了 10 个点
+OK: nan
+OK: nan
+OK: 98%
+OK: nan
+OK: nan
+OK: 73%
+OK: nan
+OK: nan
+[SAVE] Itr 2: saved after 20 samplings
+[TPE] Itr 1 finished: drop_classes: [8, 9]
+
+[TPE] Itr 2 start
+可用数据数量: 33138
+[I 2026-03-26 15:29:45,319] Trial 20 finished with value: 0.0 and parameters: {'sample_idx': 4522}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:45,869] Trial 21 finished with value: 0.0 and parameters: {'sample_idx': 31452}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:46,425] Trial 22 finished with value: 0.495 and parameters: {'sample_idx': 32921}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:47,008] Trial 23 finished with value: 0.0 and parameters: {'sample_idx': 27685}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:47,628] Trial 24 finished with value: 0.49 and parameters: {'sample_idx': 22160}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:48,217] Trial 25 finished with value: 0.0 and parameters: {'sample_idx': 29483}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:48,810] Trial 26 finished with value: 0.0 and parameters: {'sample_idx': 15695}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:49,411] Trial 27 finished with value: 0.495 and parameters: {'sample_idx': 25169}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:50,055] Trial 28 finished with value: 0.48 and parameters: {'sample_idx': 33095}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:29:50,640] Trial 29 finished with value: 0.0 and parameters: {'sample_idx': 30156}. Best is trial 4 with value: 0.495.
+累积trials数: 30
+采样了 10 个点
+OK: nan
+OK: 99%
+OK: nan
+OK: 97%
+OK: nan
+OK: 96%
+OK: nan
+OK: 99%
+[SAVE] Itr 3: saved after 30 samplings
+[TPE] Itr 2 finished: drop_classes: [0, 8]
+
+[TPE] Itr 3 start
+可用数据数量: 33125
+[I 2026-03-26 15:30:02,352] Trial 30 finished with value: 0.46 and parameters: {'sample_idx': 20541}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:02,901] Trial 31 finished with value: 0.0 and parameters: {'sample_idx': 25288}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:03,442] Trial 32 finished with value: 0.0 and parameters: {'sample_idx': 28796}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:04,009] Trial 33 finished with value: 0.49 and parameters: {'sample_idx': 1467}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:04,546] Trial 34 finished with value: 0.0 and parameters: {'sample_idx': 25668}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:05,107] Trial 35 finished with value: 0.0 and parameters: {'sample_idx': 30949}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:05,702] Trial 36 finished with value: 0.0 and parameters: {'sample_idx': 24002}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:06,285] Trial 37 finished with value: 0.0 and parameters: {'sample_idx': 27957}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:06,840] Trial 38 finished with value: 0.0 and parameters: {'sample_idx': 9067}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:07,424] Trial 39 finished with value: 0.0 and parameters: {'sample_idx': 14774}. Best is trial 4 with value: 0.495.
+累积trials数: 40
+采样了 10 个点
+OK: nan
+OK: 99%
+OK: 91%
+OK: nan
+OK: 99%
+OK: nan
+OK: nan
+[SAVE] Itr 4: saved after 40 samplings
+[TPE] Itr 3 finished: drop_classes: [0, 3, 5]
+
+[TPE] Itr 4 start
+可用数据数量: 33112
+[I 2026-03-26 15:30:18,948] Trial 40 finished with value: 0.0 and parameters: {'sample_idx': 6399}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:19,510] Trial 41 finished with value: 0.465 and parameters: {'sample_idx': 33004}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:20,026] Trial 42 finished with value: 0.0 and parameters: {'sample_idx': 30743}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:20,547] Trial 43 finished with value: 0.495 and parameters: {'sample_idx': 32368}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:21,090] Trial 44 finished with value: 0.095 and parameters: {'sample_idx': 12372}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:21,607] Trial 45 finished with value: 0.0 and parameters: {'sample_idx': 30665}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:22,120] Trial 46 finished with value: 0.0 and parameters: {'sample_idx': 28632}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:22,662] Trial 47 finished with value: 0.0 and parameters: {'sample_idx': 26515}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:23,171] Trial 48 finished with value: 0.49 and parameters: {'sample_idx': 24426}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:23,682] Trial 49 finished with value: 0.0 and parameters: {'sample_idx': 31845}. Best is trial 4 with value: 0.495.
+累积trials数: 50
+采样了 10 个点
+OK: 83%
+OK: 99%
+OK: 93%
+OK: nan
+OK: 98%
+[SAVE] Itr 5: saved after 50 samplings
+[TPE] Itr 4 finished: drop_classes: [0, 1, 3, 6, 7]
+
+[TPE] Itr 5 start
+可用数据数量: 33098
+[I 2026-03-26 15:30:34,815] Trial 50 finished with value: 0.0 and parameters: {'sample_idx': 17571}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:35,336] Trial 51 finished with value: 0.395 and parameters: {'sample_idx': 32785}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:35,861] Trial 52 finished with value: 0.0 and parameters: {'sample_idx': 31607}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:36,375] Trial 53 finished with value: 0.0 and parameters: {'sample_idx': 29855}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:36,937] Trial 54 finished with value: 0.0 and parameters: {'sample_idx': 122}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:37,405] Trial 55 finished with value: 0.0 and parameters: {'sample_idx': 27566}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:37,871] Trial 56 finished with value: 0.0 and parameters: {'sample_idx': 31965}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:38,335] Trial 57 finished with value: 0.0 and parameters: {'sample_idx': 22722}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:38,774] Trial 58 finished with value: 0.46 and parameters: {'sample_idx': 29199}. Best is trial 4 with value: 0.495.
+[I 2026-03-26 15:30:39,220] Trial 59 finished with value: 0.0 and parameters: {'sample_idx': 11034}. Best is trial 4 with value: 0.495.
+累积trials数: 60
+采样了 10 个点
+OK: nan
+OK: nan
+OK: 97%
+OK: 97%
+OK: 99%
+OK: 25%
+[TPE] Itr 5 finished: drop_classes: [3, 6, 7, 8]
+
+[TPE] Sampling finished.
+[TPE] OK samples: ['COc1cc(I)c(C=O)cn1', 'CCOc1ccc2nc(Cl)c(C=O)cc2c1', 'COc1cc(N)ccc1C=O', 'N#Cc1cnc(Cl)c(C=O)c1', 'O=Cc1cnc2ccc(F)cn12', 'CN(C)C(=O)Oc1ccc(C=O)cc1', 'O=Cc1cccnc1OCC(F)F', 'O=Cc1cc([N+](=O)[O-])c(Br)cc1F', 'O=Cc1ccnc(N2CCOCC2)c1', 'O=Cc1ccc(C(F)F)cn1', 'O=Cc1ccc(C(F)(F)F)nc1', 'COc1cc(Cl)ncc1C=O', 'COc1cc(C=O)cc(F)c1OC', 'O=Cc1cccc2cccc(Br)c12', 'O=Cc1c(F)cc(Br)cc1F', 'C#Cc1ccc(C=O)s1', 'COc1cccc(-c2ccc(C=O)cc2C)c1OC', 'COC(=O)c1ccc(C(=O)OC)c(-c2ccc(C=O)o2)c1', 'CN(C)Cc1cccc(C=O)c1', 'CCOC(=O)c1oc2ccc(C=O)c(Cl)c2c1C', 'O=Cc1ccc(Sc2ccc(Cl)cc2)c([N+](=O)[O-])c1', 'O=Cc1cc(F)cc(OC(F)(F)F)c1', 'O=Cc1ccc(Sc2ccccn2)o1', 'Cc1cc(C=O)cc(I)c1F', 'C#Cc1cc2c(cc1C=O)OCO2', 'O=Cc1cnc2ccc(F)cc2c1Cl', 'O=Cc1cc(Br)ccc1[N+](=O)[O-]', 'COc1c(F)ccc(Br)c1C=O', 'C#Cc1csc(C=O)c1', 'Cc1csc(C=O)c1Cl', 'CC(C)Oc1cc(Br)ccc1C=O', 'Cc1cc(C=O)ccc1-n1cccn1', 'O=Cc1cc(F)c(Cl)nc1Cl', 'O=Cc1cc(F)ccc1F', 'COc1cc(C=O)cc(Cl)c1OC1CCCC1', 'CCc1cccc2cc(C=O)c(Cl)nc12']
+[TPE] Dropped samples: 24
+========== Seed 1 finished ==========
+
+
+========== Running with seed=2 ==========
+
+=== 预采样阶段: 计算缩放因子 (n=10) ===
+预采样统计:
+  熵: mean=5346.9032, std=0.0000
+  反应产率: mean=0.0730, std=0.2190
+  熵缩放因子: 1.000000
+  预采样 OK: 1, Drop: 9
+[I 2026-03-26 15:31:01,653] A new study created in memory with name: no-name-741e2291-e2fb-4a9d-898a-c6a00e55644e
+[SAVE] Itr 1: saved after 10 samplings (pre-sampled)
+
+=== 初始TPE阶段: 运行 10 trials 建立先验 ===
+[I 2026-03-26 15:31:02,417] Trial 0 finished with value: 0.0 and parameters: {'sample_idx': 14454}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:31:02,952] Trial 1 finished with value: 0.0 and parameters: {'sample_idx': 859}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:31:03,516] Trial 2 finished with value: 0.0 and parameters: {'sample_idx': 18222}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:31:04,055] Trial 3 finished with value: 0.495 and parameters: {'sample_idx': 14431}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:04,597] Trial 4 finished with value: 0.0 and parameters: {'sample_idx': 13936}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:05,133] Trial 5 finished with value: 0.0 and parameters: {'sample_idx': 10951}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:05,706] Trial 6 finished with value: 0.0 and parameters: {'sample_idx': 6784}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:06,280] Trial 7 finished with value: 0.49 and parameters: {'sample_idx': 20530}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:06,847] Trial 8 finished with value: 0.0 and parameters: {'sample_idx': 9934}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:07,423] Trial 9 finished with value: 0.495 and parameters: {'sample_idx': 8845}. Best is trial 3 with value: 0.495.
+初始trials完成，总trials数: 10
+
+[TPE] Itr 1 start
+可用数据数量: 33152
+[I 2026-03-26 15:31:09,790] Trial 10 finished with value: 0.26 and parameters: {'sample_idx': 29274}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:10,340] Trial 11 finished with value: 0.0 and parameters: {'sample_idx': 24229}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:10,918] Trial 12 finished with value: 0.0 and parameters: {'sample_idx': 3880}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:11,464] Trial 13 finished with value: 0.475 and parameters: {'sample_idx': 9327}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:12,018] Trial 14 finished with value: 0.0 and parameters: {'sample_idx': 23402}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:12,554] Trial 15 finished with value: 0.43 and parameters: {'sample_idx': 15867}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:13,107] Trial 16 finished with value: 0.0 and parameters: {'sample_idx': 5236}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:13,643] Trial 17 finished with value: 0.23 and parameters: {'sample_idx': 12744}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:14,174] Trial 18 finished with value: 0.0 and parameters: {'sample_idx': 827}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:14,695] Trial 19 finished with value: 0.49 and parameters: {'sample_idx': 32508}. Best is trial 3 with value: 0.495.
+累积trials数: 20
+采样了 10 个点
+OK: nan
+OK: nan
+OK: nan
+OK: 98%
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+[SAVE] Itr 2: saved after 20 samplings
+[TPE] Itr 1 finished: drop_classes: [8, 9]
+
+[TPE] Itr 2 start
+可用数据数量: 33140
+[I 2026-03-26 15:31:26,087] Trial 20 finished with value: 0.0 and parameters: {'sample_idx': 17982}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:26,662] Trial 21 finished with value: 0.0 and parameters: {'sample_idx': 22337}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:27,254] Trial 22 finished with value: 0.0 and parameters: {'sample_idx': 19706}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:27,835] Trial 23 finished with value: 0.0 and parameters: {'sample_idx': 21117}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:28,428] Trial 24 finished with value: 0.465 and parameters: {'sample_idx': 26274}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:29,069] Trial 25 finished with value: 0.0 and parameters: {'sample_idx': 7235}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:29,577] Trial 26 finished with value: 0.0 and parameters: {'sample_idx': 16724}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:30,173] Trial 27 finished with value: 0.0 and parameters: {'sample_idx': 11931}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:30,758] Trial 28 finished with value: 0.425 and parameters: {'sample_idx': 26384}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:31,396] Trial 29 finished with value: 0.0 and parameters: {'sample_idx': 14883}. Best is trial 3 with value: 0.495.
+累积trials数: 30
+采样了 10 个点
+OK: nan
+OK: nan
+OK: 99%
+OK: nan
+OK: nan
+[SAVE] Itr 3: saved after 30 samplings
+[TPE] Itr 2 finished: drop_classes: [0, 4, 6, 8, 9]
+
+[TPE] Itr 3 start
+可用数据数量: 33127
+[I 2026-03-26 15:31:42,791] Trial 30 finished with value: 0.0 and parameters: {'sample_idx': 19866}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:43,309] Trial 31 finished with value: 0.0 and parameters: {'sample_idx': 30744}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:43,856] Trial 32 finished with value: 0.42 and parameters: {'sample_idx': 28441}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:44,399] Trial 33 finished with value: 0.49 and parameters: {'sample_idx': 32945}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:44,909] Trial 34 finished with value: 0.0 and parameters: {'sample_idx': 8922}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:45,425] Trial 35 finished with value: 0.0 and parameters: {'sample_idx': 2267}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:45,942] Trial 36 finished with value: 0.48 and parameters: {'sample_idx': 13596}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:46,457] Trial 37 finished with value: 0.275 and parameters: {'sample_idx': 7524}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:47,001] Trial 38 finished with value: 0.475 and parameters: {'sample_idx': 32703}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:47,443] Trial 39 finished with value: 0.0 and parameters: {'sample_idx': 11649}. Best is trial 3 with value: 0.495.
+累积trials数: 40
+采样了 10 个点
+OK: 47%
+OK: 98%
+OK: nan
+OK: 95%
+OK: nan
+[SAVE] Itr 4: saved after 40 samplings
+[TPE] Itr 3 finished: drop_classes: [0, 1, 2, 6, 9]
+
+[TPE] Itr 4 start
+可用数据数量: 33113
+[I 2026-03-26 15:31:57,823] Trial 40 finished with value: 0.0 and parameters: {'sample_idx': 17705}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:58,372] Trial 41 finished with value: 0.0 and parameters: {'sample_idx': 31954}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:58,929] Trial 42 finished with value: 0.495 and parameters: {'sample_idx': 29154}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:31:59,475] Trial 43 finished with value: 0.485 and parameters: {'sample_idx': 29487}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:00,020] Trial 44 finished with value: 0.0 and parameters: {'sample_idx': 26355}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:00,571] Trial 45 finished with value: 0.0 and parameters: {'sample_idx': 27786}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:01,121] Trial 46 finished with value: 0.0 and parameters: {'sample_idx': 24718}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:01,613] Trial 47 finished with value: 0.0 and parameters: {'sample_idx': 30859}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:02,077] Trial 48 finished with value: 0.42 and parameters: {'sample_idx': 4375}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:02,625] Trial 49 finished with value: 0.0 and parameters: {'sample_idx': 9920}. Best is trial 3 with value: 0.495.
+累积trials数: 50
+采样了 10 个点
+OK: nan
+OK: nan
+OK: 68%
+OK: 94%
+OK: nan
+OK: nan
+OK: nan
+OK: 99%
+[SAVE] Itr 5: saved after 50 samplings
+[TPE] Itr 4 finished: drop_classes: [0, 1]
+
+[TPE] Itr 5 start
+可用数据数量: 33100
+[I 2026-03-26 15:32:13,211] Trial 50 finished with value: 0.0 and parameters: {'sample_idx': 14890}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:13,769] Trial 51 finished with value: 0.475 and parameters: {'sample_idx': 32781}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:14,367] Trial 52 finished with value: 0.0 and parameters: {'sample_idx': 31309}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:14,951] Trial 53 finished with value: 0.0 and parameters: {'sample_idx': 29680}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:15,542] Trial 54 finished with value: 0.485 and parameters: {'sample_idx': 28136}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:16,175] Trial 55 finished with value: 0.47 and parameters: {'sample_idx': 32987}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:16,772] Trial 56 finished with value: 0.0 and parameters: {'sample_idx': 22420}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:17,360] Trial 57 finished with value: 0.0 and parameters: {'sample_idx': 25385}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:17,948] Trial 58 finished with value: 0.0 and parameters: {'sample_idx': 30181}. Best is trial 3 with value: 0.495.
+[I 2026-03-26 15:32:18,524] Trial 59 finished with value: 0.0 and parameters: {'sample_idx': 16821}. Best is trial 3 with value: 0.495.
+累积trials数: 60
+采样了 10 个点
+OK: nan
+OK: nan
+OK: 99%
+OK: 88%
+OK: nan
+OK: nan
+OK: nan
+[TPE] Itr 5 finished: drop_classes: [0, 2, 8]
+
+[TPE] Sampling finished.
+[TPE] OK samples: ['O=Cc1cc2c(ccc3cc(C=O)sc32)s1', 'Cc1cc(C(=O)O)ccc1C=O', 'O=Cc1ccc(OC(F)F)c([N+](=O)[O-])c1', 'Nc1cnc(Br)cc1C=O', 'Cc1ccc(F)c(C=O)c1', 'COCOc1ccc(Cl)cc1C=O', 'O=Cc1ccccc1-c1cccnc1', 'O=Cc1cn(-c2ccccc2)nc1-c1ccc(Br)s1', 'O=Cc1cc(OC(F)(F)F)cc([N+](=O)[O-])c1', 'Cc1cc(C=O)cc(Br)c1[N+](=O)[O-]', 'CC(C)c1ccc(C=O)cc1C(F)(F)F', 'O=Cc1ccc([N+](=O)[O-])cc1C(F)(F)F', 'O=Cc1cc(F)ccc1C(=O)O', 'O=Cc1cccc(Cl)c1', 'COC(=O)Cc1cccc(C=O)c1', 'O=Cc1cc(Br)c(F)cc1F', 'COCCCOc1cccc(C=O)c1', 'O=Cc1cc(Br)ccc1OC(F)(F)F', 'Cc1cc(C=O)ncc1[N+](=O)[O-]', 'C=C(CCO)C(=O)OCc1ccc(C=O)o1', 'O=Cc1cc(Br)co1', 'Cc1c(C=O)cccc1C=O', 'Cc1cc(C(C)C)ccc1C=O', 'O=Cc1occc1[N+](=O)[O-]', 'O=Cc1ccc(OCc2ccccc2)c(OCc2ccccc2)c1', 'O=Cc1c(Br)cc(F)c(F)c1F', 'Cc1c(C=O)cccc1[N+](=O)[O-]', 'CC(C)CS(=O)(=O)c1ccc(C=O)cc1', 'Cc1cc(C=O)ccc1F', 'CN(C)c1ccccc1C=O', 'O=Cc1cc(C(F)(F)F)cnc1Cl', 'CCOP(=O)(OCC)c1ccc(C=O)o1', 'O=Cc1ccc2ccccc2c1C(F)(F)F', 'O=Cc1ccccc1C(F)F']
+[TPE] Dropped samples: 26
+========== Seed 2 finished ==========
+
+
+========== Running with seed=3 ==========
+
+=== 预采样阶段: 计算缩放因子 (n=10) ===
+预采样统计:
+  熵: mean=5432.2656, std=0.0000
+  反应产率: mean=0.3930, std=0.4814
+  熵缩放因子: 1.000000
+  预采样 OK: 4, Drop: 6
+[I 2026-03-26 15:32:43,917] A new study created in memory with name: no-name-72f8c2a7-2388-4c58-8d53-92de9d168de1
+[SAVE] Itr 1: saved after 10 samplings (pre-sampled)
+
+=== 初始TPE阶段: 运行 10 trials 建立先验 ===
+[I 2026-03-26 15:32:44,621] Trial 0 finished with value: 0.47 and parameters: {'sample_idx': 18260}. Best is trial 0 with value: 0.47.
+[I 2026-03-26 15:32:45,192] Trial 1 finished with value: 0.0 and parameters: {'sample_idx': 23476}. Best is trial 0 with value: 0.47.
+[I 2026-03-26 15:32:45,779] Trial 2 finished with value: 0.085 and parameters: {'sample_idx': 9644}. Best is trial 0 with value: 0.47.
+[I 2026-03-26 15:32:46,427] Trial 3 finished with value: 0.0 and parameters: {'sample_idx': 16934}. Best is trial 0 with value: 0.47.
+[I 2026-03-26 15:32:47,079] Trial 4 finished with value: 0.0 and parameters: {'sample_idx': 29602}. Best is trial 0 with value: 0.47.
+[I 2026-03-26 15:32:47,672] Trial 5 finished with value: 0.0 and parameters: {'sample_idx': 29713}. Best is trial 0 with value: 0.47.
+[I 2026-03-26 15:32:48,226] Trial 6 finished with value: 0.495 and parameters: {'sample_idx': 4163}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:48,817] Trial 7 finished with value: 0.0 and parameters: {'sample_idx': 6870}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:49,482] Trial 8 finished with value: 0.0 and parameters: {'sample_idx': 1706}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:50,059] Trial 9 finished with value: 0.0 and parameters: {'sample_idx': 14613}. Best is trial 6 with value: 0.495.
+初始trials完成，总trials数: 10
+
+[TPE] Itr 1 start
+可用数据数量: 33152
+[I 2026-03-26 15:32:52,881] Trial 10 finished with value: 0.0 and parameters: {'sample_idx': 1846}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:53,450] Trial 11 finished with value: 0.0 and parameters: {'sample_idx': 19947}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:54,059] Trial 12 finished with value: 0.48 and parameters: {'sample_idx': 10151}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:54,661] Trial 13 finished with value: 0.0 and parameters: {'sample_idx': 9499}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:55,281] Trial 14 finished with value: 0.0 and parameters: {'sample_idx': 6085}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:55,865] Trial 15 finished with value: 0.0 and parameters: {'sample_idx': 11282}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:56,437] Trial 16 finished with value: 0.0 and parameters: {'sample_idx': 76}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:57,012] Trial 17 finished with value: 0.0 and parameters: {'sample_idx': 5130}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:57,610] Trial 18 finished with value: 0.0 and parameters: {'sample_idx': 13280}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:32:58,195] Trial 19 finished with value: 0.075 and parameters: {'sample_idx': 4909}. Best is trial 6 with value: 0.495.
+累积trials数: 20
+采样了 10 个点
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+[SAVE] Itr 2: saved after 20 samplings
+[TPE] Itr 1 finished: drop_classes: [5, 6, 7, 8, 9]
+
+[TPE] Itr 2 start
+可用数据数量: 33141
+[I 2026-03-26 15:33:09,771] Trial 20 finished with value: 0.0 and parameters: {'sample_idx': 22767}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:10,304] Trial 21 finished with value: 0.0 and parameters: {'sample_idx': 17702}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:10,818] Trial 22 finished with value: 0.43 and parameters: {'sample_idx': 21007}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:11,335] Trial 23 finished with value: 0.0 and parameters: {'sample_idx': 25935}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:11,869] Trial 24 finished with value: 0.0 and parameters: {'sample_idx': 13404}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:12,375] Trial 25 finished with value: 0.48 and parameters: {'sample_idx': 8071}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:12,921] Trial 26 finished with value: 0.21 and parameters: {'sample_idx': 8775}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:13,431] Trial 27 finished with value: 0.315 and parameters: {'sample_idx': 2674}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:13,961] Trial 28 finished with value: 0.415 and parameters: {'sample_idx': 7570}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:14,451] Trial 29 finished with value: 0.0 and parameters: {'sample_idx': 11961}. Best is trial 6 with value: 0.495.
+累积trials数: 30
+采样了 10 个点
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+[SAVE] Itr 3: saved after 30 samplings
+[TPE] Itr 2 finished: drop_classes: [0, 1, 8, 9]
+
+[TPE] Itr 3 start
+可用数据数量: 33131
+[I 2026-03-26 15:33:24,780] Trial 30 finished with value: 0.0 and parameters: {'sample_idx': 4020}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:25,332] Trial 31 finished with value: 0.0 and parameters: {'sample_idx': 16183}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:25,861] Trial 32 finished with value: 0.0 and parameters: {'sample_idx': 10128}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:26,405] Trial 33 finished with value: 0.0 and parameters: {'sample_idx': 18620}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:26,957] Trial 34 finished with value: 0.34 and parameters: {'sample_idx': 15430}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:27,505] Trial 35 finished with value: 0.0 and parameters: {'sample_idx': 12051}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:28,049] Trial 36 finished with value: 0.425 and parameters: {'sample_idx': 25916}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:28,592] Trial 37 finished with value: 0.49 and parameters: {'sample_idx': 32495}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:29,136] Trial 38 finished with value: 0.395 and parameters: {'sample_idx': 32522}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:29,685] Trial 39 finished with value: 0.0 and parameters: {'sample_idx': 7054}. Best is trial 6 with value: 0.495.
+累积trials数: 40
+采样了 10 个点
+OK: 98%
+OK: nan
+OK: nan
+OK: 79%
+OK: nan
+[SAVE] Itr 4: saved after 40 samplings
+[TPE] Itr 3 finished: drop_classes: [0, 2, 3, 4, 7]
+
+[TPE] Itr 4 start
+可用数据数量: 33118
+[I 2026-03-26 15:33:40,865] Trial 40 finished with value: 0.485 and parameters: {'sample_idx': 8208}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:41,392] Trial 41 finished with value: 0.0 and parameters: {'sample_idx': 7955}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:41,947] Trial 42 finished with value: 0.0 and parameters: {'sample_idx': 3236}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:42,473] Trial 43 finished with value: 0.0 and parameters: {'sample_idx': 92}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:42,996] Trial 44 finished with value: 0.0 and parameters: {'sample_idx': 10297}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:43,507] Trial 45 finished with value: 0.275 and parameters: {'sample_idx': 8959}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:44,032] Trial 46 finished with value: 0.495 and parameters: {'sample_idx': 5256}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:44,544] Trial 47 finished with value: 0.0 and parameters: {'sample_idx': 5995}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:45,071] Trial 48 finished with value: 0.0 and parameters: {'sample_idx': 1400}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:45,638] Trial 49 finished with value: 0.0 and parameters: {'sample_idx': 4218}. Best is trial 6 with value: 0.495.
+累积trials数: 50
+采样了 10 个点
+OK: nan
+OK: 99%
+OK: nan
+OK: nan
+OK: nan
+[SAVE] Itr 5: saved after 50 samplings
+[TPE] Itr 4 finished: drop_classes: [0, 5, 6, 8, 9]
+
+[TPE] Itr 5 start
+可用数据数量: 33107
+[I 2026-03-26 15:33:56,714] Trial 50 finished with value: 0.0 and parameters: {'sample_idx': 5648}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:57,318] Trial 51 finished with value: 0.0 and parameters: {'sample_idx': 7254}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:57,934] Trial 52 finished with value: 0.0 and parameters: {'sample_idx': 11122}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:58,490] Trial 53 finished with value: 0.0 and parameters: {'sample_idx': 13224}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:58,999] Trial 54 finished with value: 0.47 and parameters: {'sample_idx': 8615}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:33:59,652] Trial 55 finished with value: 0.0 and parameters: {'sample_idx': 6325}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:34:00,216] Trial 56 finished with value: 0.0 and parameters: {'sample_idx': 29701}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:34:00,861] Trial 57 finished with value: 0.0 and parameters: {'sample_idx': 2964}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:34:01,466] Trial 58 finished with value: 0.0 and parameters: {'sample_idx': 4805}. Best is trial 6 with value: 0.495.
+[I 2026-03-26 15:34:02,074] Trial 59 finished with value: 0.0 and parameters: {'sample_idx': 1424}. Best is trial 6 with value: 0.495.
+累积trials数: 60
+采样了 10 个点
+OK: nan
+OK: 95%
+OK: nan
+OK: nan
+OK: nan
+[TPE] Itr 5 finished: drop_classes: [1, 3, 4, 5, 9]
+
+[TPE] Sampling finished.
+[TPE] OK samples: ['O=Cc1c(F)ccc2ncccc12', 'O=Cc1cccn(-c2ccc(Cl)cc2)c1=S', 'O=Cc1ccc(-c2ccccc2[N+](=O)[O-])cc1', 'COC(=O)c1ccccc1-c1ccc(C=O)cc1', 'CNC(=O)c1ccc(OC)c(C=O)c1', 'O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1', 'CN1CCC(c2ccc(C=O)cc2)CC1', 'CC(C)Oc1cc(C=O)cnc1F', 'O=Cc1cccc(F)c1F', 'O=Cc1ccc2ccccc2c1Br', 'O=Cc1c(F)cccc1Br', 'N#Cc1cc(C=O)ccc1OCc1ccccc1', 'CS(=O)(=O)c1ccc(C=O)c(S(C)(=O)=O)c1', 'CCCCCCC[C@H](C)Oc1ccc(C=O)cc1OCC', 'O=Cc1ccc(Sc2cccc3cccnc23)o1', 'NCc1ncccc1C=O', 'COc1ccc(C=O)c(Br)c1', 'O=Cc1ccccc1COC1CCCC1', 'Cc1ccc2ccc(C=O)c(O)c2n1', 'C[C@H]1CC[C@@H]1COc1ccc(C=O)cc1Br', 'O=Cc1cc2ccsc2cc1Br', 'O=Cc1c(F)ccc2ccccc12', 'Cc1nn(-c2ccccc2)c(C(F)(F)F)c1C=O', 'CCc1ccc(C=O)s1', 'CCOc1cc(C=O)ccc1OC(=O)C1CC1', 'Cc1ccc(Cc2ccc(C=O)o2)cc1', 'O=Cc1cccc(OC2CC2)c1', 'Cn1cc(C=O)nc1-c1ccc(F)cc1', 'O=Cc1ccc2cc(Br)ccc2n1', 'CCCCOc1cc(C=O)cc(C(F)(F)F)c1']
+[TPE] Dropped samples: 30
+========== Seed 3 finished ==========
+
+
+========== Running with seed=4 ==========
+
+=== 预采样阶段: 计算缩放因子 (n=10) ===
+预采样统计:
+  熵: mean=5422.6776, std=0.0000
+  反应产率: mean=0.2920, std=0.4461
+  熵缩放因子: 1.000000
+  预采样 OK: 3, Drop: 7
+[I 2026-03-26 15:34:25,055] A new study created in memory with name: no-name-fa035813-ac00-44cd-adef-fef875786403
+[SAVE] Itr 1: saved after 10 samplings (pre-sampled)
+
+=== 初始TPE阶段: 运行 10 trials 建立先验 ===
+[I 2026-03-26 15:34:25,785] Trial 0 finished with value: 0.0 and parameters: {'sample_idx': 32057}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:34:26,264] Trial 1 finished with value: 0.0 and parameters: {'sample_idx': 18140}. Best is trial 0 with value: 0.0.
+[I 2026-03-26 15:34:26,863] Trial 2 finished with value: 0.495 and parameters: {'sample_idx': 32244}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:27,418] Trial 3 finished with value: 0.0 and parameters: {'sample_idx': 23696}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:27,914] Trial 4 finished with value: 0.0 and parameters: {'sample_idx': 23129}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:28,407] Trial 5 finished with value: 0.495 and parameters: {'sample_idx': 7163}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:28,984] Trial 6 finished with value: 0.47 and parameters: {'sample_idx': 32363}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:29,548] Trial 7 finished with value: 0.275 and parameters: {'sample_idx': 206}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:30,110] Trial 8 finished with value: 0.0 and parameters: {'sample_idx': 8386}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:30,546] Trial 9 finished with value: 0.0 and parameters: {'sample_idx': 14413}. Best is trial 2 with value: 0.495.
+初始trials完成，总trials数: 10
+
+[TPE] Itr 1 start
+可用数据数量: 33150
+[I 2026-03-26 15:34:33,286] Trial 10 finished with value: 0.0 and parameters: {'sample_idx': 25514}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:33,854] Trial 11 finished with value: 0.0 and parameters: {'sample_idx': 6528}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:34,384] Trial 12 finished with value: 0.495 and parameters: {'sample_idx': 9783}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:34,885] Trial 13 finished with value: 0.0 and parameters: {'sample_idx': 706}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:35,455] Trial 14 finished with value: 0.0 and parameters: {'sample_idx': 15066}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:36,043] Trial 15 finished with value: 0.49 and parameters: {'sample_idx': 19320}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:36,551] Trial 16 finished with value: 0.0 and parameters: {'sample_idx': 5187}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:37,064] Trial 17 finished with value: 0.465 and parameters: {'sample_idx': 28688}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:37,572] Trial 18 finished with value: 0.485 and parameters: {'sample_idx': 11267}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:38,121] Trial 19 finished with value: 0.0 and parameters: {'sample_idx': 12434}. Best is trial 2 with value: 0.495.
+累积trials数: 20
+采样了 10 个点
+OK: 99%
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: 94%
+OK: nan
+OK: nan
+[SAVE] Itr 2: saved after 20 samplings
+[TPE] Itr 1 finished: drop_classes: [8, 9]
+
+[TPE] Itr 2 start
+可用数据数量: 33138
+[I 2026-03-26 15:34:48,644] Trial 20 finished with value: 0.48 and parameters: {'sample_idx': 20579}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:49,182] Trial 21 finished with value: 0.485 and parameters: {'sample_idx': 9891}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:49,724] Trial 22 finished with value: 0.0 and parameters: {'sample_idx': 3585}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:50,264] Trial 23 finished with value: 0.0 and parameters: {'sample_idx': 7924}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:50,727] Trial 24 finished with value: 0.495 and parameters: {'sample_idx': 3551}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:51,326] Trial 25 finished with value: 0.0 and parameters: {'sample_idx': 13150}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:51,882] Trial 26 finished with value: 0.0 and parameters: {'sample_idx': 15919}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:52,339] Trial 27 finished with value: 0.0 and parameters: {'sample_idx': 10229}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:52,826] Trial 28 finished with value: 0.0 and parameters: {'sample_idx': 29041}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:34:53,283] Trial 29 finished with value: 0.155 and parameters: {'sample_idx': 29053}. Best is trial 2 with value: 0.495.
+累积trials数: 30
+采样了 10 个点
+OK: 99%
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: 98%
+OK: nan
+[SAVE] Itr 3: saved after 30 samplings
+[TPE] Itr 2 finished: drop_classes: [1]
+
+[TPE] Itr 3 start
+可用数据数量: 33124
+[I 2026-03-26 15:35:04,193] Trial 30 finished with value: 0.0 and parameters: {'sample_idx': 4154}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:04,780] Trial 31 finished with value: 0.0 and parameters: {'sample_idx': 2193}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:05,368] Trial 32 finished with value: 0.0 and parameters: {'sample_idx': 6066}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:05,955] Trial 33 finished with value: 0.495 and parameters: {'sample_idx': 8593}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:06,524] Trial 34 finished with value: 0.0 and parameters: {'sample_idx': 2515}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:07,101] Trial 35 finished with value: 0.495 and parameters: {'sample_idx': 17436}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:07,672] Trial 36 finished with value: 0.0 and parameters: {'sample_idx': 6344}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:08,271] Trial 37 finished with value: 0.0 and parameters: {'sample_idx': 12403}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:08,853] Trial 38 finished with value: 0.0 and parameters: {'sample_idx': 23566}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:09,454] Trial 39 finished with value: 0.49 and parameters: {'sample_idx': 21052}. Best is trial 2 with value: 0.495.
+累积trials数: 40
+采样了 10 个点
+OK: 95%
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+OK: nan
+[SAVE] Itr 4: saved after 40 samplings
+[TPE] Itr 3 finished: drop_classes: [1, 2, 3, 8]
+
+[TPE] Itr 4 start
+可用数据数量: 33111
+[I 2026-03-26 15:35:20,004] Trial 40 finished with value: 0.0 and parameters: {'sample_idx': 8468}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:20,510] Trial 41 finished with value: 0.0 and parameters: {'sample_idx': 8387}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:21,169] Trial 42 finished with value: 0.485 and parameters: {'sample_idx': 9817}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:21,649] Trial 43 finished with value: 0.0 and parameters: {'sample_idx': 4956}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:22,176] Trial 44 finished with value: 0.0 and parameters: {'sample_idx': 1600}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:22,773] Trial 45 finished with value: 0.0 and parameters: {'sample_idx': 7158}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:23,357] Trial 46 finished with value: 0.0 and parameters: {'sample_idx': 136}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:23,990] Trial 47 finished with value: 0.495 and parameters: {'sample_idx': 32795}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:24,532] Trial 48 finished with value: 0.0 and parameters: {'sample_idx': 25234}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:25,125] Trial 49 finished with value: 0.0 and parameters: {'sample_idx': 3278}. Best is trial 2 with value: 0.495.
+累积trials数: 50
+采样了 10 个点
+OK: 88%
+OK: nan
+OK: nan
+OK: 99%
+OK: nan
+OK: nan
+[SAVE] Itr 5: saved after 50 samplings
+[TPE] Itr 4 finished: drop_classes: [1, 3, 4, 9]
+
+[TPE] Itr 5 start
+可用数据数量: 33099
+[I 2026-03-26 15:35:37,633] Trial 50 finished with value: 0.0 and parameters: {'sample_idx': 4957}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:38,232] Trial 51 finished with value: 0.0 and parameters: {'sample_idx': 31167}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:38,832] Trial 52 finished with value: 0.0 and parameters: {'sample_idx': 17179}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:39,418] Trial 53 finished with value: 0.465 and parameters: {'sample_idx': 13768}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:40,008] Trial 54 finished with value: 0.0 and parameters: {'sample_idx': 18524}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:40,518] Trial 55 finished with value: 0.0 and parameters: {'sample_idx': 11235}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:41,114] Trial 56 finished with value: 0.355 and parameters: {'sample_idx': 25800}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:41,641] Trial 57 finished with value: 0.0 and parameters: {'sample_idx': 15339}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:42,263] Trial 58 finished with value: 0.0 and parameters: {'sample_idx': 21882}. Best is trial 2 with value: 0.495.
+[I 2026-03-26 15:35:42,817] Trial 59 finished with value: 0.425 and parameters: {'sample_idx': 9209}. Best is trial 2 with value: 0.495.
+累积trials数: 60
+采样了 10 个点
+OK: 92%
+OK: nan
+OK: nan
+OK: nan
+OK: 70%
+OK: nan
+OK: nan
+OK: nan
+[TPE] Itr 5 finished: drop_classes: [1, 2]
+
+[TPE] Sampling finished.
+[TPE] OK samples: ['COc1c(C=O)ccnc1Br', 'O=Cc1cc(C(=O)O)ccn1', 'O=Cc1cc(Cl)cc(Cl)c1F', 'CC(C)(C)OC(=O)c1ccc(C=O)cc1', 'O=Cc1ccc(F)c2c1CCC2', 'Cc1ccc(C=O)cc1OC(C)C', 'O=Cc1ccc(-c2ccc(Cl)c(F)c2)cc1', 'Cc1ccc(Br)c(C=O)n1', 'O=Cc1ccccc1C(F)(F)F', 'COc1cc(C=O)ccc1OCc1ccc(Cl)cc1', 'Cc1c(C=O)oc2ccc(F)cc12', 'C#Cc1ccc(C=O)o1', 'O=Cc1cccnc1', 'CCCC[C@H](CC)COC(=O)c1cc2c(C=O)sc(Br)c2s1', 'COc1cc(C=O)cc(OC)c1OC(F)F', 'O=Cc1ncccc1C(F)(F)F', 'O=Cc1ccnc(F)c1', 'O=Cc1cc(Cl)cc(C(=O)O)c1Cl', 'Cc1cc(Cl)cc(C=O)c1', 'O=Cc1ccc2ncccc2c1Cl', 'NC(=O)CCc1ccc(C=O)cc1', 'O=Cc1ccc(OCc2ccccc2)cc1Cl', 'COC(=O)c1ccc(C=O)cc1C(F)(F)F', 'COC(=O)c1cc2c(C=O)ccc(OC)c2o1', 'Cc1cc(Br)c(C=O)cc1F', 'Cc1c(F)ccc(F)c1C=O', 'COc1cccc(Cl)c1C=O', 'O=Cc1ccccc1OCc1ccc(Cl)cc1', 'CP(C)(=O)c1ccc(C=O)cc1', 'O=Cc1ccc(Cl)cc1OCc1ccccc1', 'COc1ccc2sc(C=O)cc2c1', 'O=Cc1cccc(-c2ccc(Cl)cc2F)c1', 'O=Cc1ccc([N+](=O)[O-])c2ncccc12', 'CCOc1cc(C=O)ccc1OC(=O)CSc1nc(-c2ccccc2)cc(-c2ccc(OC)cc2)c1C#N', 'COc1cc(C=O)cc(O)c1OC', 'Cc1c(F)cccc1C=O', 'O=Cc1cc(Cl)ncc1F', 'O=Cc1cnc(Cl)c(F)c1', 'Cc1c(F)cc(Cl)c(C=O)c1F', 'O=Cc1c(Cl)cc(Cl)cc1Br']
+[TPE] Dropped samples: 20
+========== Seed 4 finished ==========
+
+All done.

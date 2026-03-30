@@ -1,0 +1,11 @@
+﻿Dimension,Substrates,Sample,Space,Gold,Rand,Rand Std,Exp,Score,Score (Expert)
+Uniformity,Oxoesters/Oxoamides[9],18,4624,5824.6,5259.4,71.93,5173.1,53.89,51.43
+Uniformity,Styrenes[9],14,904,5778.7,5359.5,120.7,4845.5,10.95,19.24
+Uniformity,Thiols[10],18,4909,5947.2,5316.4,62.34,4893,33.15,37.95
+Uniformity,Alcohols [a],60,7968,6274.3,5181.8,99.42,4931.4,50.83,42.83
+Uniformity,Aldehyde[5]-ScopeMap,20,32071,6090.2,5341,61.95,5135.2,44.39,24.3
+Representativeness,Oxoesters/Oxoamides,18,4624,1283.5,1482.8,82.81,1563.1,43.88,73.85
+Representativeness,Styrenes,14,904,1251,1651.2,174.23,1367.7,88.33,90.67
+Representativeness,Thiols,18,4909,1285.3,1602.4,87.94,1387.5,87.11,89.1
+Representativeness,Alcohols[8] [a],60,7968,1270.8,1415.2,66.77,1272.8,99.44,96.68
+Representativeness,Aldehyde[5]-ScopeMap,20,32071,1330.3,1691.6,108.23,1342.2,98.41,96.28

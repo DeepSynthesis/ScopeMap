@@ -1,0 +1,10 @@
+smiles
+O=Cc1cc(/N=N/c2ccc(Cl)cc2)ccc1O
+Cc1ccc(C=O)c2[nH]ccc12
+O=Cc1ccc(Oc2cccc(C(F)(F)F)n2)cc1
+COc1c(C[C@H]2CC(c3ccc(Cl)cc3)=NO2)c(C=O)c2c(c1OC)OCO2
+O=Cc1ccc(-n2cnc(I)c2I)s1
+CC(C)(C)OC(=O)N1CCn2ncc(C=O)c2C1
+COc1ccc(-c2[nH]c(C=O)nc2Br)cc1
+Cn1nc(C(F)(F)F)c(C=O)c1Sc1ccc(Br)cc1
+Cc1ccc(C=O)c(OCc2ccccc2Cl)c1C

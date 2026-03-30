@@ -1,0 +1,14 @@
+smiles
+COc1ccc(C=O)cc1Cl
+O=Cc1cc(Br)c(C(F)(F)F)cc1F
+COc1cc(O)c(C=O)cc1F
+CCOc1cc(C=O)cc(Br)c1OCc1ccccc1
+CCOc1ccc(COc2cccc(C=O)c2)cc1OCC
+O=Cc1cc([N+](=O)[O-])ccc1[N+](=O)[O-]
+COc1cc(C=O)c(O)cc1F
+O=Cc1ccccc1[N+](=O)[O-]
+O=Cc1ccc(C(=O)c2cccc([N+](=O)[O-])c2)cc1[N+](=O)[O-]
+Cc1ccc([C@H](O)Cc2ccc(C=O)c(C)n2)c(C)n1
+C#Cc1cc(C=O)c(F)c(F)c1Br
+CCOc1ccc(C=O)cc1OC
+COc1ccccc1C=O

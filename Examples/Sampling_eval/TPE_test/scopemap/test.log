@@ -1,0 +1,268 @@
+nohup: ignoring input
+(1091, 1193)
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...   21%         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...   93%         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...   25%         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...   15%         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...   17%         BASE
+
+[33162 rows x 1194 columns]
+Itr 1 start
+/home/ljw/1700/1700/revision1/Bayesian_samesize/scopemap/test.py:35: DtypeWarning: Columns (1192) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(f'./itr/labeled_points_itr{task_itr_id-1}.csv')
+k_num: 10
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...   21%         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...   93%         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...   25%         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...   15%         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...   17%         BASE
+
+[33162 rows x 1194 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 16.492423
+均匀采样下采样点间期望平方距离: 26996.000000
+基础排斥系数: 2.416794e+13
+最终排斥强度 (base * 10^0.0): 2.416794e+13
+找到 0 个已采样点作为CVT固定中心点
+没有找到ScreenLabel='Excluded_Sampled'的点，不计算排斥力
+CVT计算将使用所有 33162 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 68
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 2.416794e+13, CVT权重: 1.0
+迭代 0: 总能量 = 1490473.226835, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 1490473.226835
+加权CVT采样完成，采样了 10 个点
+                             smiles  0  1  2  ...  1189  1190  conv  ScreenLabel
+0                CCOc1ccc(C=O)cc1OC  0  0  0  ...     0     0   NaN         BASE
+1             NC(=O)COc1ccc(C=O)cc1  0  0  0  ...     0     0   NaN         BASE
+2                  O=Cc1ccc(C=O)cc1  0  0  0  ...     0     0   NaN         BASE
+3              CCn1cc(C=O)c2ccccc21  0  0  0  ...     0     0   NaN         BASE
+4                  O=Cc1cnc(C=O)cn1  0  0  0  ...     0     0   NaN         BASE
+5                     COc1ccccc1C=O  0  0  0  ...     0     0   93%         BASE
+6           O=Cc1ccccc1[N+](=O)[O-]  0  0  0  ...     0     0   NaN         BASE
+7                       Cn1nccc1C=O  0  0  0  ...     0     0   NaN         BASE
+8  O=Cc1ccccc1N1CCN(c2ccccc2C=O)CC1  0  0  0  ...     0     0   NaN         BASE
+9                 COc1ccc(C=O)cc1Cl  0  0  0  ...     0     0   94%         BASE
+
+[10 rows x 1194 columns]
+OK: nan
+OK: 93%
+OK: nan
+OK: 94%
+Itr 1 finished: drop_classes: [1, 2, 3, 4, 7, 8]
+Saved final_sampling_itr_1.csv and final_drop_itr_1.csv
+Itr 2 start
+/home/ljw/1700/1700/revision1/Bayesian_samesize/scopemap/test.py:35: DtypeWarning: Columns (1192) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(f'./itr/labeled_points_itr{task_itr_id-1}.csv')
+k_num: 10
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...   21%         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...   93%         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...   25%         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...   15%         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...   17%         BASE
+
+[33162 rows x 1194 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 16.492423
+均匀采样下采样点间期望平方距离: 26996.000000
+基础排斥系数: 2.416794e+13
+最终排斥强度 (base * 10^0.0): 2.416794e+13
+找到 13 个已采样点作为CVT固定中心点
+使用 6 个ScreenLabel='Excluded_Sampled'的点计算排斥力
+CVT计算将使用所有 33162 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 43
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 2.416794e+13, CVT权重: 1.0
+迭代 0: 总能量 = 39015064682798.523438, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 2069169.000024
+加权CVT采样完成，采样了 10 个点
+                                              smiles  0  ...  conv  ScreenLabel
+0   COc1cc2c(cc1CNC(=O)Cn1c(C)c(C=O)c3ccccc31)OCCCO2  0  ...   NaN         BASE
+1             CCCCCCCCOC(=O)c1cc(Br)sc1-c1ccc(C=O)s1  0  ...   NaN         BASE
+2                 COc1cc(C=O)c(Br)cc1OCc1c(F)cccc1Cl  0  ...   NaN         BASE
+3               COc1cccc(-c2[nH]c3ccc(Cl)cc3c2C=O)c1  0  ...   NaN         BASE
+4  COc1cc(C=O)ccc1OCC(=O)Nc1cc(S(=O)(=O)N2CCOCC2)...  0  ...   NaN         BASE
+5         C=CCc1ccc(OCCOc2c(Br)cc(C=O)cc2OCC)c(OC)c1  0  ...   NaN         BASE
+6  CCOC(=O)N1CCc2c(sc3c2c(=O)n(-c2ccccc2)c(=O)n3C...  0  ...   NaN         BASE
+7            CCCCOc1ccc(-c2nn(-c3ccccc3)cc2C=O)cc1Cl  0  ...   NaN         BASE
+8  COc1cc(C=O)cc(Br)c1OS(=O)(=O)c1cccc([N+](=O)[O...  0  ...   NaN         BASE
+9  COc1ccc(C=O)cc1Cn1c(=O)n(-c2ccc(F)cc2)c(=O)c2c...  0  ...   NaN         BASE
+
+[10 rows x 1194 columns]
+Itr 2 finished: drop_classes: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+Saved final_sampling_itr_2.csv and final_drop_itr_2.csv
+Itr 3 start
+/home/ljw/1700/1700/revision1/Bayesian_samesize/scopemap/test.py:35: DtypeWarning: Columns (1192) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(f'./itr/labeled_points_itr{task_itr_id-1}.csv')
+k_num: 10
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...   21%         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...   93%         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...   25%         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...   15%         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...   17%         BASE
+
+[33162 rows x 1194 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 16.492423
+均匀采样下采样点间期望平方距离: 26996.000000
+基础排斥系数: 2.416794e+13
+最终排斥强度 (base * 10^0.0): 2.416794e+13
+找到 23 个已采样点作为CVT固定中心点
+使用 16 个ScreenLabel='Excluded_Sampled'的点计算排斥力
+CVT计算将使用所有 33162 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 2.416794e+13, CVT权重: 1.0
+迭代 0: 总能量 = 64682872173367.500000, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 2061143.000057
+加权CVT采样完成，采样了 10 个点
+                                              smiles  0  ...  conv  ScreenLabel
+0          CCOC(=O)c1ccc(NC(=O)COc2ccc(C=O)cc2OC)cc1  0  ...   NaN         BASE
+1              Cc1cc(-c2ccc(Cl)c(C(F)(F)F)c2)ccc1C=O  0  ...   NaN         BASE
+2                   C[C@H]1CCN(c2ccc(C=O)o2)C[C@H]1O  0  ...   NaN         BASE
+3  O=Cc1cc(Br)ccc1Oc1ccc([N+](=O)[O-])cc1[N+](=O)...  0  ...   NaN         BASE
+4      CCOC(=O)c1cc(NC(=O)Cn2cc(C=O)c3ccccc32)ccc1Cl  0  ...   NaN         BASE
+5  COC(=O)c1cc(C)nc2c1c(=O)n(Cc1cc(C=O)ccc1OC)c(=...  0  ...   NaN         BASE
+6                   O=Cc1ccc(-c2nc3ccc(F)cc3s2)cc1Cl  0  ...   NaN         BASE
+7  CC(=O)O[C@@H]1CC[C@@]2(C)[C@@H](CC[C@@H](C)[C@...  0  ...   NaN         BASE
+8            O=Cc1cn(-c2nc3ccc(Cl)cc3s2)nc1-c1ccccc1  0  ...   NaN         BASE
+9                 COc1ccc(Br)c(C=O)c1OCc1ccc(F)cc1Cl  0  ...   NaN         BASE
+
+[10 rows x 1194 columns]
+OK: nan
+Itr 3 finished: drop_classes: [0, 2, 3, 4, 5, 6, 7, 8, 9]
+Saved final_sampling_itr_3.csv and final_drop_itr_3.csv
+Itr 4 start
+/home/ljw/1700/1700/revision1/Bayesian_samesize/scopemap/test.py:35: DtypeWarning: Columns (1192) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(f'./itr/labeled_points_itr{task_itr_id-1}.csv')
+k_num: 10
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...   21%         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...   93%         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...   25%         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...   15%         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...   17%         BASE
+
+[33162 rows x 1194 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 16.492423
+均匀采样下采样点间期望平方距离: 26996.000000
+基础排斥系数: 2.416794e+13
+最终排斥强度 (base * 10^0.0): 2.416794e+13
+找到 33 个已采样点作为CVT固定中心点
+使用 25 个ScreenLabel='Excluded_Sampled'的点计算排斥力
+CVT计算将使用所有 33162 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 24
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 2.416794e+13, CVT权重: 1.0
+迭代 0: 总能量 = 81274702324288.562500, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 2045425.000098
+加权CVT采样完成，采样了 10 个点
+                                              smiles  0  ...  conv  ScreenLabel
+0            CCOC(=O)C(C)(C)Oc1ccc(OCc2ccccc2)cc1C=O  0  ...   NaN         BASE
+1                   Cc1ccc(S(=O)(=O)Oc2ccccc2C=O)cc1  0  ...   NaN         BASE
+2                  CC(C)(C)c1cccc(-c2cccc(C=O)c2F)c1  0  ...   NaN         BASE
+3   Cc1ccc(-n2c(Sc3nc4ccccn4c3C=O)nnc2-c2ccccc2)cc1C  0  ...   NaN         BASE
+4                           Cc1nc2[nH]cc(C=O)c2cc1Br  0  ...   NaN         BASE
+5  Cc1nc(Nc2ncc(C=O)s2)cc(N2CCN(C(=O)OC(C)(C)C)CC...  0  ...   NaN         BASE
+6   O=Cc1ccc(/C=C2\SC(=S)N(c3ccc(C(=O)O)cc3)C2=O)cc1  0  ...   NaN         BASE
+7              O=Cc1cc([N+](=O)[O-])ccc1[N+](=O)[O-]  0  ...   NaN         BASE
+8  C[C@]1(C(=O)O)CC[C@]2(C)CC[C@]3(C)C4=CC(=O)c5c...  0  ...   NaN         BASE
+9  C#Cc1cc(C=O)cc(CN2CCN(C(=O)c3ccnc4[nH]c(C5CCOC...  0  ...   NaN         BASE
+
+[10 rows x 1194 columns]
+OK: nan
+OK: nan
+OK: nan
+Itr 4 finished: drop_classes: [1, 3, 4, 5, 6, 8, 9]
+Saved final_sampling_itr_4.csv and final_drop_itr_4.csv
+Itr 5 start
+/home/ljw/1700/1700/revision1/Bayesian_samesize/scopemap/test.py:35: DtypeWarning: Columns (1192) have mixed types. Specify dtype option on import or set low_memory=False.
+  data = pd.read_csv(f'./itr/labeled_points_itr{task_itr_id-1}.csv')
+k_num: 10
+                                                  smiles  0  ...  conv  ScreenLabel
+0         CCOC(=O)C[C@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+1       COC(=O)C[C@H]1C(=O)NCCN1c1nc2ccc(C)cn2c(=O)c1C=O  0  ...   NaN         BASE
+2      COC(=O)C[C@@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+3        CCOC(=O)C[C@@H]1C(=O)NCCN1c1nc2ccccn2c(=O)c1C=O  0  ...   NaN         BASE
+4       COC(=O)C[C@H]1C(=O)NCCN1c1nc2c(C)cccn2c(=O)c1C=O  0  ...   NaN         BASE
+...                                                  ... ..  ...   ...          ...
+33157                               CCN(CC)c1ccc(C=O)cn1  0  ...   21%         BASE
+33158                               O=Cc1cccc2cccc(F)c12  0  ...   93%         BASE
+33159                              O=Cc1cccc2cccc(Br)c12  0  ...   25%         BASE
+33160              O=Cc1ccc(-c2ccc([N+](=O)[O-])cc2Cl)o1  0  ...   15%         BASE
+33161                            O=Cc1cccn1-c1ccc(Cl)cc1  0  ...   17%         BASE
+
+[33162 rows x 1194 columns]
+计算数据中两点间的最大距离...
+数据中最大距离: 16.492423
+均匀采样下采样点间期望平方距离: 26996.000000
+基础排斥系数: 2.416794e+13
+最终排斥强度 (base * 10^0.0): 2.416794e+13
+找到 43 个已采样点作为CVT固定中心点
+使用 32 个ScreenLabel='Excluded_Sampled'的点计算排斥力
+CVT计算将使用所有 33162 个数据点
+阶段1：使用解析CVT方法初始化中心点（迭代100次）
+解析CVT收敛，迭代次数: 53
+阶段2：基于解析CVT初猜进行加权能量优化（最多500次迭代）
+开始加权能量优化，排斥强度: 2.416794e+13, CVT权重: 1.0
+迭代 0: 总能量 = 110759622652930.968750, 学习率 = 0.010000
+加权能量优化收敛, 迭代次数: 2, 最终能量: 2033660.000070
+加权CVT采样完成，采样了 10 个点
+                                              smiles  0  ...  conv  ScreenLabel
+0                                COc1cc(F)cc(C=O)c1O  0  ...   NaN         BASE
+1                COc1ccc2nc(Oc3ccc(F)cc3)c(C=O)cc2c1  0  ...   NaN         BASE
+2              CCOc1cc(C=O)ccc1OCC(=O)Nc1ccccc1C(C)C  0  ...   NaN         BASE
+3                  O=Cc1c(-c2cccnc2)[nH]c2ccc(F)cc12  0  ...   NaN         BASE
+4               CCOc1cc(C=O)ccc1OCCCOc1ccc(Cl)c(C)c1  0  ...   NaN         BASE
+5                  CC(C)(C)c1cccc(-c2ccc(F)cc2C=O)c1  0  ...   NaN         BASE
+6                      O=Cc1cnc(N2CCC[C@@H](O)C2)nc1  0  ...   NaN         BASE
+7       COc1cc(C)c(NC(=O)Cn2c(C)c(C=O)c3ccccc32)cc1C  0  ...   NaN         BASE
+8           CC(C)c1nn(-c2cccc(C(F)(F)F)c2)c(Cl)c1C=O  0  ...   NaN         BASE
+9  O=Cc1ccc(C(=O)c2cccc([N+](=O)[O-])c2)cc1[N+](=...  0  ...   NaN         BASE
+
+[10 rows x 1194 columns]
+OK: nan
+OK: nan
+Itr 5 finished: drop_classes: [0, 2, 3, 4, 5, 6, 7, 8]
+Saved final_sampling_itr_5.csv and final_drop_itr_5.csv
+Sampling finished.
+OK samples: ['COc1ccccc1C=O', 'Cc1cc(-c2ccc(Cl)c(C(F)(F)F)c2)ccc1C=O', 'COc1ccc(C=O)cc1Cl', 'O=Cc1ccccc1[N+](=O)[O-]', 'CCOC(=O)C(C)(C)Oc1ccc(OCc2ccccc2)cc1C=O', 'O=Cc1ccc(C(=O)c2cccc([N+](=O)[O-])c2)cc1[N+](=O)[O-]', 'O=Cc1cc([N+](=O)[O-])ccc1[N+](=O)[O-]', 'COc1ccc2nc(Oc3ccc(F)cc3)c(C=O)cc2c1', 'CCOc1ccc(C=O)cc1OC', 'CC(C)(C)c1cccc(-c2cccc(C=O)c2F)c1']
+Done

@@ -1,0 +1,24 @@
+nohup: ignoring input
+            Dimension              Substrates  Sample  Space    Gold    Rand  Rand Std     Exp  Score  Score (Expert)
+0          Uniformity  Oxoesters/Oxoamides[9]      18   4624  5824.6  5259.4     71.93  5173.1  53.89           51.43
+1          Uniformity             Styrenes[9]      14    904  5778.7  5359.5    120.70  4845.5  10.95           19.24
+2          Uniformity              Thiols[10]      18   4909  5947.2  5316.4     62.34  4893.0  33.15           37.95
+3          Uniformity            Alcohols [a]      60   7968  6274.3  5181.8     99.42  4931.4  50.83           42.83
+4          Uniformity    Aldehyde[5]-ScopeMap      20  32071  6090.2  5341.0     61.95  5135.2  44.39           24.30
+5  Representativeness     Oxoesters/Oxoamides      18   4624  1283.5  1482.8     82.81  1563.1  43.88           73.85
+6  Representativeness                Styrenes      14    904  1251.0  1651.2    174.23  1367.7  88.33           90.67
+7  Representativeness                  Thiols      18   4909  1285.3  1602.4     87.94  1387.5  87.11           89.10
+8  Representativeness         Alcohols[8] [a]      60   7968  1270.8  1415.2     66.77  1272.8  99.44           96.68
+9  Representativeness    Aldehyde[5]-ScopeMap      20  32071  1330.3  1691.6    108.23  1342.2  98.41           96.28 
+
+         Dimension             Substrates  Score  Std(Score)  Score(Expert)  Std(Score Expert)  D_mean  Std(D)        t      p  Significant (p<0.05)
+        Uniformity Oxoesters/Oxoamides[9]  53.89      5.8679          51.43             6.1812    2.46  0.3134  17.5529 0.0001                  True
+        Uniformity            Styrenes[9]  10.95     25.6389          19.24            23.2532   -8.29  2.3857  -7.7700 0.0015                  True
+        Uniformity             Thiols[10]  33.15      6.6064          37.95             6.1322   -4.80  0.4742 -22.6334 0.0000                  True
+        Uniformity           Alcohols [a]  50.83      4.4744          42.83             5.2026    8.00  0.7282  24.5653 0.0000                  True
+        Uniformity   Aldehyde[5]-ScopeMap  44.39      4.2161          24.30             6.2595   20.09  2.0434  21.9841 0.0000                  True
+Representativeness    Oxoesters/Oxoamides  43.88     23.3166          73.85            10.8654  -29.97 12.4512  -5.3822 0.0058                  True
+Representativeness               Styrenes  88.33      5.0781          90.67             4.0619   -2.34  1.0162  -5.1490 0.0067                  True
+Representativeness                 Thiols  87.11      3.5752          89.10             3.0229   -1.99  0.5524  -8.0555 0.0013                  True
+Representativeness        Alcohols[8] [a]  99.44      0.2562          96.68             1.5352    2.76  1.2790   4.8254 0.0085                  True
+Representativeness   Aldehyde[5]-ScopeMap  98.41      0.3947          96.28             1.1144    2.13  0.7197   6.6178 0.0027                  True
