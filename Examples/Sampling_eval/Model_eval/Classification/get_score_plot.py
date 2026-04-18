@@ -3,42 +3,38 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import re
 
-# 读取cvt.log文件
 with open('Classification.log', 'r') as f:
     content = f.read()
 
-# 解析Accuracy, Recall, F1 Score
 pattern = r'Accuracy: ([\d.]+)\s+Recall: ([\d.]+)\s+F1 Score: ([\d.]+)'
 matches = re.findall(pattern, content)
 
-# 提取数据
 accuracys = [float(m[0]) for m in matches]
 recalls = [float(m[1]) for m in matches]
 f1s = [float(m[2]) for m in matches]
 
 print(f"找到 {len(accuracys)} 组数据")
 
-# 样本数对应关系
 sample_sizes = [20, 40, 60, 80, 100]
 n_splits = 5
 
-# 按样本数分组计算均值和标准差
 acc_means, acc_stds = [], []
 rec_means, rec_stds = [], []
 f1_means, f1_stds = [], []
 
 for i, size in enumerate(sample_sizes):
-    start_idx = i * n_splits
-    end_idx = start_idx + n_splits
+    acc_group = accuracys[i::len(sample_sizes)]
+    rec_group = recalls[i::len(sample_sizes)]
+    f1_group  = f1s[i::len(sample_sizes)]
 
-    acc_means.append(np.mean(accuracys[start_idx:end_idx]))
-    acc_stds.append(np.std(accuracys[start_idx:end_idx]))
-    rec_means.append(np.mean(recalls[start_idx:end_idx]))
-    rec_stds.append(np.std(recalls[start_idx:end_idx]))
-    f1_means.append(np.mean(f1s[start_idx:end_idx]))
-    f1_stds.append(np.std(f1s[start_idx:end_idx]))
+    acc_means.append(np.mean(acc_group))
+    acc_stds.append(np.std(acc_group))
+    rec_means.append(np.mean(rec_group))
+    rec_stds.append(np.std(rec_group))
+    f1_means.append(np.mean(f1_group))
+    f1_stds.append(np.std(f1_group))
 
-    print(f"{size} samples: Acc={np.mean(accuracys[start_idx:end_idx]):.4f}±{np.std(accuracys[start_idx:end_idx]):.4f}, Recall={np.mean(recalls[start_idx:end_idx]):.4f}±{np.std(recalls[start_idx:end_idx]):.4f}, F1={np.mean(f1s[start_idx:end_idx]):.4f}±{np.std(f1s[start_idx:end_idx]):.4f}")
+    print(f"{size} samples: Acc={np.mean(acc_group):.4f}±{np.std(acc_group):.4f}, Recall={np.mean(rec_group):.4f}±{np.std(rec_group):.4f}, F1={np.mean(f1_group):.4f}±{np.std(f1_group):.4f}")
 
 # Set up bar positions
 samples = ['20', '40', '60', '80', '100']
