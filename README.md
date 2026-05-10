@@ -135,7 +135,7 @@ Each example includes complete data files, sampling scripts, evaluation results 
 
 ## Web Service
 
-The web service is available at: http://database.luo-group.com:18081/
+The web service is available at: https://scopemap.deepsynthesis.top/
 
 ## License
 
